@@ -1,45 +1,63 @@
 # Healthcare Data Analysis & Visualization Dashboard
- 
+
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/deploy?repository=revanthkumarreddy/healthcare&branch=main&mainModule=app.py)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?repo=revanthkumarreddy/healthcare)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/revanthkumarreddy/healthcare)
+
 **MCA Project — Anjali Kumari (A24CA1895)**  
 **Guide: Divakar Purohit, Sr. Data Analyst**  
 **Institution: Centre for Distance and Online Education — Online MCA Programme, 4th Semester**
- 
+
 ---
- 
+
+## 🚀 Live Run Links
+
+You can run and interact with this project live using any of the following options:
+
+1. **Streamlit Community Cloud (Free 1-Click Hosted App):**
+   - Click: **[Deploy / View on Streamlit Cloud](https://share.streamlit.io/deploy?repository=revanthkumarreddy/healthcare&branch=main&mainModule=app.py)**
+   - Sign in with your GitHub account, click **Deploy**, and Streamlit will build and host your app live on the web at a free URL (e.g. `https://healthcare-dashboard.streamlit.app`)!
+
+2. **GitHub Codespaces (Run in Cloud Browser Environment):**
+   - Click: **[Launch GitHub Codespace](https://github.com/codespaces/new?repo=revanthkumarreddy/healthcare)**
+   - Automatically opens VS Code in your browser, installs dependencies, and runs `streamlit run app.py` instantly.
+
+---
+
 ## Project Overview
- 
+
 A production-grade, multi-page **Streamlit** healthcare analytics dashboard powered by **Python** and **SQLite** (zero-config, no server needed). Based on the real Kaggle `prasad22/healthcare-dataset` (10,000 patient records). Falls back to synthetic data if Kaggle credentials are unavailable.
- 
+
 ---
- 
+
 ## Quick Start (3 steps)
- 
+
 ### Step 1 — Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
- 
+
 ### Step 2 — Load the dataset
 ```bash
 python database/loader.py
 ```
- 
+
 This will auto-generate 10,000 synthetic records if the Kaggle dataset is not available locally.  
 **To use the real Kaggle dataset:**
 1. Download from: https://www.kaggle.com/datasets/prasad22/healthcare-dataset
 2. Place `healthcare_dataset.csv` in the `data/` folder
 3. Re-run: `python database/loader.py`
- 
+
 ### Step 3 — Launch the dashboard
 ```bash
 streamlit run app.py
 ```
 Open **http://localhost:8501** in your browser.
- 
+
 ---
- 
+
 ## Dashboard Pages
- 
+
 | # | Page | Description |
 |---|------|-------------|
 | 🏠 | **Home** | Navigation hub with project overview |
@@ -49,11 +67,11 @@ Open **http://localhost:8501** in your browser.
 | 🏨 | **Hospital Operations** | Hospital/doctor performance, LOS, admission patterns |
 | 💰 | **Financial Analysis** | Revenue, billing distribution, payer mix, high-value cases |
 | 🤖 | **ML Insights** | K-Means clustering, Random Forest prediction, risk scoring |
- 
+
 ---
- 
+
 ## Project Structure
- 
+
 ```
 healthcare/
 ├── app.py                         # Streamlit home page + navigation
@@ -86,11 +104,11 @@ healthcare/
 └── .streamlit/
     └── config.toml                # Dark theme configuration
 ```
- 
+
 ---
- 
+
 ## Technology Stack
- 
+
 | Layer | Technology |
 |-------|------------|
 | **UI Framework** | Streamlit 1.59 |
@@ -100,20 +118,20 @@ healthcare/
 | **Machine Learning** | scikit-learn (K-Means, Random Forest, PCA) |
 | **Data Generation** | Faker |
 | **Dataset** | Kaggle — prasad22/healthcare-dataset |
- 
+
 ---
- 
+
 ## Dataset
- 
+
 - **Source**: [Kaggle — prasad22/healthcare-dataset](https://www.kaggle.com/datasets/prasad22/healthcare-dataset)
 - **License**: CC0 (Public Domain)
 - **Records**: 10,000 patient records
 - **Columns**: Name, Age, Gender, Blood Type, Medical Condition, Date of Admission, Doctor, Hospital, Insurance Provider, Billing Amount, Room Number, Admission Type, Discharge Date, Medication, Test Results
- 
+
 ---
- 
+
 ## ML Features
- 
+
 - **Patient Segmentation**: K-Means clustering with PCA 2-D visualization (configurable 2–8 clusters)
 - **Test Result Prediction**: Random Forest classifier (Normal / Abnormal / Inconclusive) with confusion matrix
 - **Risk Scoring**: Composite 0–100 risk score based on age, billing, LOS, test results, and admission type
