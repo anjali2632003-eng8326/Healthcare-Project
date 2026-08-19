@@ -1,0 +1,3446 @@
+[0|Normal] 
+[1|Normal] ఆంధ్ర విశ్వకళాపరిషత్
+ANDHRA UNIVERSITY
+Accredited by NAAC with A++ Grade & Score: 3.74
+[2|Normal] 
+[3|Normal] PROJECT REPORT ON
+“Healthcare Data Analysis and Visualization Dashboard”
+[4|Normal] Submitted in partial fulfilment of the requirements for the award of the degree of
+MASTER OF COMPUTER APPLICATIONS
+[5|Normal] Submitted By
+ANJALI KUMARI
+Registered number
+A24CA1895
+[6|Normal] Under The Guidance of
+Mr. Divakar Purohit
+Sr. Data Analyst
+[7|Normal] Academic Year:
+2025-26
+[8|Normal] 
+[9|Normal] CENTRE FOR DISTANCE AND ONLINE EDUCATION
+ANDHRA UNIVERSITY
+VISAKHAPATNAM
+[10|Normal] 
+[11|Normal] 1. GUIDE CERTIFICATE
+[12|Normal] This is to certify that the project entitled “Healthcare Data Analysis and Visualization Dashboard”, is a Bonafide work done by Anjali Kumari, bearing Regd. No: A24CA1895 for the academic year 2024-2025 in partial fulfillment of the requirements for the award of the degree of Master of Computer Applications (M.C.A) in Andhra University. This work has been carried out under my supervision and guidance.
+[13|Normal] 
+[14|Normal] 
+[15|Normal] Signature of Student
+[16|Normal]  
+Divakar Purohit
+Signature and Name of the Project Guide
+[17|Normal] 
+[18|Normal] 2. DECLARATION BY THE LEARNER
+[19|Normal] I hereby declare that the project report entitled at “Healthcare Data Analysis and Visualization Dashboard” has been carried out by me under the guidance of Mr. Divakar Purohit. This project is original and has not been submitted by me, either in part or full, for the award of any degree or diploma at any other university or institution.
+[20|Normal] 
+ANJALI KUMARI
+Signature and Name of the Learner
+Regd. No: A24CA1895
+[21|Normal] 
+[22|Normal] 3. ACKNOWLEDGEMENT
+[23|Normal] I would like to express my sincere gratitude to all those who helped me to complete this project titled “Healthcare Data Analysis and Visualization Dashboard” First and foremost, I extend my heartfelt thanks to Mr. Divakar Purohit, my project guide, for their valuable guidance, encouragement, and continuous support throughout the course of this study.
+[24|Normal] I sincerely thank the Centre for Distance and Online Education, Andhra University, for facilitating this academic opportunity.
+[25|Normal] Lastly, I would like to thank my family and friends for their constant encouragement and moral support during this project.
+[26|Normal] 
+[27|Normal] 4. TABLE OF CONTENTS
+[28|Normal] CHAPTER NO.   TITLE                                                             PAGE NO.
+[29|Normal] GUIDE CERTIFICATE ..............................................................................     3
+[30|Normal] DECLARATION BY THE LEARNER .....................................................    4
+[31|Normal] ACKNOWLEDGEMENT...........................................................................     5
+[32|Normal] TABLE OF CONTENTS .............................................................................    6
+[33|Normal] SYNOPSIS ....................................................................................................    8
+[34|Normal] ABSTRACT ...................................................................................................  12
+[35|Normal] CHAPTER 1     INTRODUCTION TO TOPIC ........................................... 12
+[36|Normal]  1.1. INTRODUCTION TO TOPIC ..............................................................  12
+[37|Normal]   1.2. SYSTEM REQUIREMENT SPECIFICATION ...........................    12
+[38|Normal]  1.2.1. HARDWARE SPECIFICATION ..................................................    13
+[39|Normal] 1.2.2. SOFTWARE SPECIFICATION ....................................................    13
+[40|Normal] 1.2.3. FEATURES OF THE OPERATING SYSTEM ............................    14
+[41|Normal] 1.2.4. SOFTWARE TECHNOLOGIES (FRONT END) .........................    15
+[42|Normal] 1.2.5. BACK-END TECHNOLOGIES ......................................................   17
+[43|Normal] 1.2.6. PYTHON & STREAMLIT FEATURES ........................................   18
+[44|Normal]  1.3. STATEMENT OF THE PROBLEM ................................................    19
+[45|Normal] 1.4. OBJECTIVES OF THE STUDY .......................................................    19
+[46|Normal] 1.5. SCOPE OF THE STUDY ....................................................................    19
+[47|Normal] 1.6. PURPOSE OF THE STUDY ...............................................................    20
+[48|Normal] 1.7. HYPOTHESES ......................................................................................    20
+[49|Normal] 1.8. RESEARCH LIMITATIONS ...............................................................    21
+[50|Normal] CHAPTER 2     OVERVIEW OF THE PROJECT .........................................    22
+[51|Normal] 2.1. OVERVIEW OF THE PROJECT ....................................………………      22
+[52|Normal] 2.1.1. EXECUTIVE OVERVIEW MODULE ...........................                             22
+[53|Normal]  2.1.2. PATIENT DEMOGRAPHICS MODULE .........................    23
+[54|Normal] 2.1.3. DISEASE ANALYSIS MODULE .............................    23
+[55|Normal] 2.1.4. HOSPITAL OPERATIONS MODULE ..........................    24
+[56|Normal]  2.1.5. FINANCIAL ANALYTICS MODULE ..........................    24
+[57|Normal] 2.1.6. MACHINE LEARNING INSIGHTS MODULE ....................    25
+[58|Normal] 2.2. BENEFITS OF THE HEALTHCARE DASHBOARD SYSTEM ................    25
+[59|Normal] 2.3. KEY CHALLENGES OF THE HEALTHCARE DASHBOARD SYSTEM ..........    26
+[60|Normal] 2.4. SYSTEM STUDY AND ANALYSIS ..................................    27
+[61|Normal] 2.4.1. EXISTING SYSTEM .....................................    27
+[62|Normal] 2.4.2. PROPOSED SYSTEM .....................................    27
+[63|Normal] 2.4.3. FEASIBILITY STUDY ...................................    27
+[64|Normal] 2.4.4. TECHNICAL FEASIBILITY ...............................    27
+[65|Normal] 2.4.5. OPERATIONAL FEASIBILITY .............................    27
+[66|Normal] 2.4.6. ECONOMIC FEASIBILITY ................................    27
+[67|Normal] 2.4.7. SYSTEM DESIGN .......................................    28
+[68|Normal] 2.4.8. INPUT / OUTPUT DESIGN ...............................    28
+[69|Normal]                 CHAPTER 3     RESEARCH DESIGN AND METHODOLOGY .................................    29
+[70|Normal]                  3.1. RESEARCH DESIGN AND METHODOLOGY ............................    29
+[71|Normal]                 CHAPTER 4     DATA ANALYSIS AND INTERPRETATION ................................    31
+[72|Normal]                 4.1. DATA ANALYSIS AND INTERPRETATION ...........................    31
+[73|Normal]                 CHAPTER 5     FINDINGS AND RECOMMENDATIONS ....................................    43
+[74|Normal]                5.1. FINDINGS AND RECOMMENDATIONS ...............................    43
+[75|Normal]                CHAPTER 6     CONCLUSIONS AND SUGGESTIONS ....................................    45
+[76|Normal]                6.1. CONCLUSIONS AND SUGGESTIONS ................................    45
+[77|Normal]               ANNEXURE (QUESTIONNAIRE) ........................................    46
+[78|Normal]               REFERENCE (BIBLIOGRAPHY) ........................................    50
+[79|Normal]               APPENDIX A: POWERPOINT PRESENTATION SLIDE DECK ..................    51
+[80|Normal]                APPENDIX B: COMPLETE PROJECT SOURCE CODE LISTING ................    57
+[81|Normal] 
+[82|Normal] 
+[83|Normal] 
+[84|Normal]                                                    *******************************
+[85|Normal] 
+[86|Normal] 
+[87|Normal] 
+[88|Normal] 
+[89|Normal] 
+[90|Normal]                                                     5. SYNOPSIS
+
+
+INTRODUCTION
+A Healthcare Data Analysis and Visualization Dashboard has become an important part of modern services. It refers to a digital platform that allows users to check availability, monitor medical conditions, track patient throughput, and analyze clinical data through the internet. With the growth of technology and internet usage, many organizations are adopting online healthcare dashboard systems to make data analysis easier, faster, and more convenient for medical administrators.
+
+A healthcare analytics dashboard helps users make data-driven decisions at any time without the need to manually compile spreadsheets. Medical officers can easily view patient admission metrics, select preferred date ranges, analyze length of stay, and confirm hospital performance through a web application. This system improves operational convenience and reduces the time and effort required for manual record keeping. It also helps healthcare organizations manage records more efficiently and maintain proper patient databases.
+
+The effectiveness of a healthcare dashboard depends on several factors such as user-friendly design, accurate clinical information, secure data management, quick response time, and proper system administration. When these elements are properly maintained, users experience smooth and reliable analytical services. This increases user satisfaction and improves overall clinical decision making.
+
+A healthcare dashboard also improves operational efficiency. It reduces manual work, minimizes errors in reporting, and helps manage hospital schedules in an organized manner. However, if the system is not properly maintained, it may lead to problems such as reporting errors, system delays, or user dissatisfaction. Therefore, organizations need to ensure that their analytics systems are well-designed, secure, and properly managed to provide reliable and efficient services.
+[91|Normal] NEED OF THE STUDY - RESEARCH GAP
+The use of healthcare analytics systems has increased due to the growth of internet technology and digital health services. Many organizations are adopting online platforms to make clinical decision-making easier, faster, and more convenient for users. Healthcare managers today prefer online dashboard systems because they allow them to check metrics, view patient breakdowns, and receive real-time analytics without visiting physical record archives. Because of these advantages, healthcare analytics dashboards have become an essential part of service management.
+
+A healthcare analytics dashboard helps users analyze data quickly and efficiently. When the system is properly designed and managed, it improves user convenience and satisfaction. Several factors influence the effectiveness of a healthcare dashboard system, such as system reliability, user-friendly interface, accurate information, secure data access, and quick query confirmation. If these factors are not properly maintained, it may lead to problems such as reporting errors, delays, system failures, and user dissatisfaction.
+
+This study focuses on examining the effectiveness and functioning of a Healthcare Data Analysis and Visualization Dashboard. It aims to understand how the system helps users in analyzing data and identify the issues or challenges faced during the analytical process. The study also attempts to find areas where improvements can be made to enhance the efficiency and reliability of the system. The findings of this study may help improve system performance and provide better decision-making support.
+[92|Normal] PROPOSED METHODOLOGY
+Research Methodology
+The following methodology was adopted in the project:
+• Understanding the theoretical concepts related to the healthcare dashboard system.
+• Analysis of the secondary data.
+
+RESEARCH DESIGN
+Research design refers to the arrangement of conditions for collecting and analyzing data in a way that combines relevance to the research purpose with efficiency in procedure. The present study is descriptive in nature. Based on the information collected, logical conclusions have been drawn regarding the functioning and effectiveness of the system.
+
+Type of Research
+The study focuses on describing the characteristics, features, and functioning of the healthcare dashboard system and the experiences of users who use the system for analytical tasks. Descriptive research helps in creating a clear understanding of the process, problems, and benefits associated with the system. It explains who uses the system, how it is used, when it is used, and the level of satisfaction among users. In this study, data has been collected using a well-structured questionnaire and information available from various sources.
+
+Data Collection Methods
+The statistical method requires the collection of data in forms of:
+1. Secondary Data
+
+
+SECONDARY DATA:
+Secondary data refers to the data that has already been collected by someone else and is available in published or unpublished sources. This data is collected from books, journals, articles, and the Kaggle 10,000-patient dataset.
+
+Sampling Procedure & Sample Size
+The study uses secondary data sources. The sample size collected for this research is taken from Kaggle. The responses help in understanding system effectiveness, advantages, and challenges.
+[93|Normal] STATEMENT OF THE PROBLEM
+Healthcare data analytics dashboards are widely used today to make decision-making easier and faster. Many people prefer online dashboards because they allow them to check metrics, choose preferred filters, and view clinical insights through the internet. This system saves time and reduces the need to visit physical offices for report generation.
+
+Even though online healthcare dashboards are convenient, users may face certain problems while using them. Some users may find the system difficult to navigate, while others may experience issues such as slow loading, query errors, incorrect information, or delay in confirmation. These problems can affect the overall user experience and create dissatisfaction among users.
+
+Many factors influence the effectiveness of a healthcare dashboard. These include a simple interface, accurate information, secure data management, and quick query confirmation. It is important to understand how well the system works and what problems users face. Identifying these issues helps improve the system and provide better analytical services.
+[94|Normal] OBJECTIVES OF THE STUDY
+• To examine the effectiveness of the Healthcare Data Analysis and Visualization Dashboard.
+• To identify the factors that influence the usability and efficiency of the system.
+• To analyze the relationship between system features and user convenience in making data decisions.
+• To assess the awareness, satisfaction, and experience of users while using the dashboard.
+[95|Normal] HYPOTHESES
+• H₁: There is a significant relationship between system design and user satisfaction in the healthcare dashboard system.
+  ➢ H₀: There is no significant relationship between system design and user satisfaction in the healthcare dashboard system.
+• H₁: User-friendly features and system reliability have a significant impact on the effectiveness of the healthcare dashboard system.
+  ➢ H₀: User-friendly features and system reliability do not have a significant impact on the effectiveness of the healthcare dashboard system.
+• H₁: Secure payment and confirmation processes influence user trust in the healthcare dashboard system.
+  ➢ H₀: Secure payment and confirmation processes do not influence user trust in the healthcare dashboard system.
+• H₁: An effective healthcare dashboard system improves the convenience and efficiency of analytical services.
+  ➢ H₀: An effective healthcare dashboard system does not improve the convenience and efficiency of analytical services.
+[96|Normal] PROJECT LIMITATIONS
+• Limited Sample Size: The study is based on a small number of respondents (100 respondents), which may not represent all users of healthcare dashboards.
+• Time Constraints: The study was completed within a limited period, so a detailed long-term analysis of the system was not possible.
+• Respondent Bias: Some respondents may not give completely accurate answers because of personal opinions or limited experience.
+• Access to Data: Some technical details about healthcare systems may not be available due to privacy or security reasons.
+[97|Normal] SYNOPSIS APPROVAL CONFIRMATION
+[98|Normal] 
+[99|Normal] 
+[100|Normal] 6. ABSTRACT
+[101|Normal] The Healthcare Data Analysis and Visualization Dashboard is a digital platform designed to simplify and improve the process of analyzing clinical data through the internet. In today's fast-changing technological environment, organizations are increasingly adopting online analytical dashboards to provide medical officers with faster, easier, and more convenient decision-making facilities. The system allows users to check patient admissions, select suitable medical conditions, analyze length of stay, and view billing details without visiting physical archives. This not only saves time and effort for medical administrators but also improves operational efficiency for hospitals.
+[102|Normal] The main purpose of this study is to examine the effectiveness and functioning of the healthcare dashboard system and understand the experiences of users while using the platform. The study focuses on important factors such as system reliability, user-friendly interface, secure data management, quick confirmation process, and customer satisfaction. It also identifies common issues faced by users, including query errors, delays, and technical problems that may affect the overall analytical experience.
+[103|Normal] The research is descriptive in nature and is based on secondary data. Secondary data has been gathered from online sources. The findings of the study are expected to help in understanding the advantages, challenges, and effectiveness of healthcare dashboard systems and provide suggestions for improving system performance and customer convenience.
+[104|Normal] ****************************
+[105|Normal] 
+[106|Normal] CHAPTER NO: 1
+ INTRODUCTION TO TOPIC
+[107|Normal] A Healthcare Data Analysis and Visualization Dashboard is a digital platform used for analyzing medical services through the internet. It helps users check availability, select suitable options, and confirm clinical metrics easily from any location. Earlier, data processing was mostly done manually by visiting offices or contacting service providers directly. With the growth of internet technology, online dashboard systems have become popular because they save time and make the analytical process faster and more convenient.
+
+Today, many businesses and service providers use online dashboard systems for managing appointments, hospital beds, event registrations, billing records, and other services. Customers prefer online systems because they can access information anytime and complete analytical tasks without waiting in long queues or depending on manual processes. The system also helps organizations maintain proper records and reduce paperwork.
+
+The main objective of this project is to develop an efficient healthcare dashboard system that provides users with simple and smooth analytical services. The system allows users to view available options, select dates and timings, enter required details, and receive confirmation instantly. It also helps administrators manage bookings, customer details, and analytical records in an organized manner.
+
+This project aims to improve user convenience and reduce the problems faced in manual analytical systems. The system is designed to be user-friendly, reliable, and secure. It can help organizations provide better customer service and improve overall operational efficiency.
+
+Key Features
+• Web-based dashboard system with user-friendly interface
+• Easy data filtering and analytical query process
+• Quick confirmation and availability checking
+• Secure user login and data management
+• Patient record management for administrators
+• Accurate record maintenance and reporting
+• Time-saving and convenient analytical process for users
+[108|Normal] 7.2. SYSTEM REQUIREMENT SPECIFICATION
+To develop the Healthcare Data Analysis and Visualization Dashboard, updated hardware and software technologies are required for smooth performance, better security, faster processing, and efficient database management. These requirements help the system operate effectively and provide a reliable analytical experience for users.
+
+The system requirements are divided into two parts:
+• Hardware Specification
+• Software Specification
+[109|Normal] 7.2.1. HARDWARE SPECIFICATION
+The hardware requirements for developing and running the Healthcare Data Analysis and Visualization Dashboard are as follows:
+[110|Normal] 
+[111|Normal] 7.2.2. SOFTWARE SPECIFICATION
+The software requirements used for developing the Healthcare Data Analysis and Visualization Dashboard are given below:
+[112|Normal] 7.2.3. FEATURES OF THE OPERATING SYSTEM — WINDOWS 11
+Windows 11 is one of the latest and most advanced operating systems developed by Microsoft. It provides a modern, secure, and user-friendly environment for running applications and managing system operations. Windows 11 is designed to deliver better performance, improved security, faster processing, and enhanced user experience compared to earlier versions of Windows.
+
+The operating system supports modern software technologies and provides better compatibility for web-based applications such as the Healthcare Dashboard. It offers improved graphical interface features, multitasking capabilities, and enhanced protection against security threats. Windows 11 also supports cloud integration, advanced networking, and smooth software installation, making it suitable for both development and operational purposes.
+
+Windows 11 includes several features that improve system performance, stability, and security. Some of the important features are given below:
+• Modern User Interface: Windows 11 provides a clean, modern, and easy-to-use graphical interface that improves user experience and navigation.
+• Enhanced Security: The operating system includes advanced security features such as Windows Defender, Firewall Protection, Secure Boot, and data encryption to protect the system from viruses and cyber threats.
+• Improved Performance: Windows 11 is optimized for faster startup, better memory management, and smooth multitasking performance.
+• Multitasking Support: Features such as Snap Layouts and Virtual Desktops help users manage multiple applications efficiently at the same time.
+• Better Hardware Compatibility: Windows 11 supports modern processors, SSD storage devices, and advanced hardware components for improved system speed and stability.
+• Automatic Updates: The operating system regularly provides updates for security improvements, bug fixes, and performance enhancements.
+• Advanced Networking Features: Windows 11 offers improved internet connectivity and network management features, which are important for web-based applications.
+• Application Compatibility: It supports a wide range of development tools, programming languages, databases, and servers required for software development.
+• Cloud Integration: Windows 11 provides integration with cloud services for backup, file sharing, and remote access facilities.
+• Easy Troubleshooting and Maintenance: Built-in troubleshooting tools help users identify and solve system-related problems quickly and efficiently.
+
+Windows 11 provides a stable and secure environment for developing and running the Healthcare Data Analysis and Visualization Dashboard. Its modern features help improve application performance, security, and overall user experience.
+[113|Normal] 7.2.4. SOFTWARE TECHNOLOGIES (FRONT END)
+The front-end technologies used in the Healthcare Data Analysis and Visualization Dashboard help in creating an interactive, responsive, and user-friendly environment. These technologies are responsible for designing web pages, validating user input, managing user sessions, and improving the overall user experience of the application.
+
+The following technologies are used in the front end of the system:
+1. Streamlit Framework / HTML5
+2. CSS3
+3. JavaScript
+4. Plotly Express
+5. Interactive Sidebars
+6. Sessions and Caching
+
+HTML5 / Streamlit
+• Used for designing and structuring the web pages of the Healthcare Dashboard.
+• Helps in creating forms, tables, buttons, navigation menus, and other page elements.
+• Supports multimedia content and improves browser compatibility.
+• Provides a clean and organized structure for displaying healthcare information and user details.
+
+CSS3
+• Used for styling and designing the web pages.
+• Improves the appearance of the application by adding colors, layouts, fonts, animations, and responsive designs.
+• Helps the website adjust properly on desktops, tablets, and mobile devices.
+• Enhances overall visual presentation and user experience.
+
+JavaScript / Plotly
+• Used for client-side validation and interactive charting features.
+• Helps in validating user input before submitting queries.
+• Improves system responsiveness and reduces unnecessary server requests.
+• Used for dynamic content updates, popup messages, and interactive chart zooming.
+
+Streamlit & Reactive UI
+• Streamlit is a modern framework used for building dynamic user interfaces in Python.
+• Helps in creating reusable components and improving application performance.
+• Allows faster page loading and smooth user interaction.
+• Improves responsiveness and efficiency of the dashboard system.
+[114|Normal] 7.2.5. BACK-END TECHNOLOGIES
+The back-end technologies used in the system are responsible for managing business logic, database operations, server communication, user authentication, and data processing. These technologies help the system run smoothly, securely, and efficiently.
+
+The following technologies are used in the back end of the system:
+1. SQLite Database
+2. SQLAlchemy ORM
+3. Localhost Web Server
+4. Python Engine
+5. Data Processing Libraries (Pandas, NumPy, Scikit-Learn)
+
+SQLite DATABASE
+• Used as the back-end database for storing patient records, medical conditions, billing details, and admission data.
+• It is one of the most popular lightweight open-source relational database management systems.
+• Provides high performance, reliability, and secure data storage.
+• Supports fast data retrieval and efficient B-tree database indexing.
+• Helps maintain accurate records and reduces data redundancy.
+
+SQLAlchemy (Database Connectivity)
+• Used for connecting the Python application with the SQLite database.
+• Allows the application to send queries and retrieve information from the database efficiently.
+• Helps in inserting, updating, deleting, and fetching records safely.
+• Provides secure and reliable communication between application and database.
+
+PYTHON ENGINE & FRAMEWORK
+• Python 3.10+ is used for developing the server-side application logic.
+• Simplifies application development by reducing configuration complexity.
+• Provides faster execution, better performance, and improved data manipulation features via Pandas.
+• Helps in managing database operations and machine learning models efficiently.
+[115|Normal] 7.2.6. PYTHON FEATURES
+Python is the main programming language used in developing the Healthcare Dashboard. It is widely used for data analysis and web-based applications because of its security, portability, and object-oriented features.
+
+Some important features of Python are:
+• Platform Independent: Python programs can run on different operating systems without modification.
+• Object-Oriented: Python follows object-oriented concepts such as classes, inheritance, and encapsulation.
+• Secure: Python provides strong security features that protect applications from unauthorized access.
+• Robust: Python supports exception handling and memory management, which improves system reliability.
+• Multithreading: Python allows multiple tasks to run efficiently, improving performance.
+• Portable: Python applications can easily be transferred from one system to another.
+• High Performance: Python provides fast execution and efficient data processing libraries.
+• Dynamic and Scalable: Python supports dynamic development and easy scalability for future improvements.
+
+These technologies together help in developing a secure, reliable, and efficient Healthcare Data Analysis and Visualization Dashboard.
+[116|Normal] 7.3. STATEMENT OF THE PROBLEM
+Online data systems are widely used today to make analytical processes easier and faster. Many people prefer online dashboards because they allow them to check metrics, choose preferred filters, and confirm insights through the internet. This system saves time and reduces the need to visit physical archives.
+
+Even though online dashboards are convenient, users may face certain problems while using them. Some users may find the system difficult to use, while others may experience issues such as slow loading, query errors, incorrect information, or delay in confirmation. These problems can affect the overall user experience and may create dissatisfaction among users.
+
+Many factors influence the effectiveness of a healthcare dashboard system. These include a simple and easy interface, accurate information, secure data management, and quick confirmation of queries. It is important to understand how well the system works and what problems users face while using it. Identifying these issues can help improve the system and provide better analytical services for users.
+[117|Normal] 7.4. OBJECTIVES OF THE STUDY
+• To examine the effectiveness of the Healthcare Data Analysis and Visualization Dashboard.
+• To identify the factors that influence the usability and efficiency of the system.
+• To analyze the relationship between system features and user convenience in making data decisions.
+• To assess the awareness, satisfaction, and experience of users while using the dashboard.
+[118|Normal] 7.5. SCOPE OF THE STUDY
+The scope of the study focuses on examining the effectiveness and functioning of the Healthcare Data Analysis and Visualization Dashboard. The study helps in understanding how online analytics dashboards improve the decision-making process by providing faster, easier, and more convenient services to users. It also studies important factors such as system usability, accurate information, secure data access, quick confirmation, and user satisfaction.
+
+The study also focuses on identifying problems faced by users while using online dashboards, such as query errors, delays, and technical issues. The research is based on responses collected from users through questionnaires and helps in finding ways to improve system performance, reliability, and service quality.
+[119|Normal] NEED OF THE STUDY
+The use of online dashboard systems has increased due to the growth of internet technology and digital services. Many organizations are adopting online platforms to make data analysis easier, faster, and more convenient for users. Customers today prefer online systems because they allow them to check metrics and receive confirmations without visiting physical offices.
+
+A healthcare dashboard helps users analyze data quickly and efficiently. When the system is properly designed and managed, it improves user convenience and satisfaction. Several factors influence effectiveness, such as system reliability, user-friendly interface, accurate information, secure payment options, and quick confirmation.
+
+This study focuses on examining the effectiveness and functioning of a healthcare dashboard. It aims to understand how the system helps users in analyzing data and identify issues faced during the process. The findings may help improve system performance and provide better services for users.
+[120|Normal] 7.6. PURPOSE OF THE STUDY
+The main purpose of this study is to examine the effectiveness and functioning of the Healthcare Dashboard System and understand how it helps users make data decisions easily and efficiently. The study focuses on analyzing usability, convenience, reliability, and overall performance in providing analytical services.
+
+The study also aims to identify problems and challenges faced by users while using the system. It helps in understanding user satisfaction, system efficiency, secure data processing, and record management. The findings of the study may help organizations improve system performance, reduce reporting errors, and provide better analytics services.
+[121|Normal] 7.7. HYPOTHESES
+• H₁: There is a significant relationship between system design and user satisfaction in the healthcare dashboard system.
+  ➢ H₀: There is no significant relationship between system design and user satisfaction in the healthcare dashboard system.
+• H₁: User-friendly features and system reliability have a significant impact on the effectiveness of the healthcare dashboard system.
+  ➢ H₀: User-friendly features and system reliability do not have a significant impact on the effectiveness of the healthcare dashboard system.
+• H₁: Secure payment and confirmation processes influence user trust in the healthcare dashboard system.
+  ➢ H₀: Secure payment and confirmation processes do not influence user trust in the healthcare dashboard system.
+• H₁: An effective healthcare dashboard system improves the convenience and efficiency of analytical services.
+  ➢ H₀: An effective healthcare dashboard system does not improve the convenience and efficiency of analytical services.
+[122|Normal] 7.8. RESEARCH LIMITATIONS
+• Limited Sample Size: The study is based on a small number of respondents (100 respondents), which may not represent all users of healthcare dashboard systems.
+• Time Constraints: The study was completed within a limited period, so a detailed long-term analysis of the system was not possible.
+• Respondent Bias: Some respondents may not give completely accurate answers because of personal opinions or limited experience.
+• Access to Data: Some technical details about healthcare systems may not be available due to privacy or security reasons.
+[123|Normal] ****************************
+[124|Normal] 
+[125|Normal] CHAPTER NO: 2
+OVERVIEW OF THE PROJECT
+[126|Normal] The main purpose of the Healthcare Data Analysis and Visualization Dashboard is to reduce the manual errors involved in the data analytical process and provide a convenient platform for users to analyze healthcare metrics online. The system helps customers easily check metrics, analyze patient demographics, modify query parameters, or review disease trends whenever required. The software is designed to improve efficiency, reduce paperwork, and provide better service management through automation.
+
+The name of the software is “Healthcare Data Analysis and Visualization Dashboard”. This system provides users with options for viewing available metrics, selecting suitable date ranges and filters, and confirming analytical results through the internet. It also allows customers to modify search parameters or filter criteria according to their requirements. The system maintains patient records in a database, which helps organizations manage customer information and analytical details efficiently.
+
+The Healthcare Dashboard is designed using modern technologies and web-based services to provide faster and more reliable analytical management. The application improves communication between users and administrators while reducing manual workload and operational delays. It also provides secure access to customer information and database records.
+
+The project consists of six major modules that work together for effective analytical management.
+[127|Normal] 
+[128|Normal] Figure 3.0: Streamlit Healthcare Analytics Dashboard Web UI Home Landing Page
+[129|Normal] 
+9.1.1. EXECUTIVE OVERVIEW MODULE
+The Executive Overview Module is one of the most important parts of the Healthcare Dashboard System. It allows the administrator to manage all system activities and maintain proper control over analytical operations.
+• User and Access Management: The administrator can create, update, or remove user accounts from the system. Access rights can also be assigned or restricted for authorized users. This helps in maintaining system security and controlling user activities effectively.
+• Service and Record Management: The administrator manages database records, schedules, service availability, and patient information. Analytical details can be modified or updated whenever required. This module helps organizations maintain accurate records and improve operational efficiency.
+• Monitoring and Report Generation: The administrator can monitor all analytical activities and generate reports related to admissions, cancellations, patient records, and system performance. These reports help organizations analyze trends and improve service quality.
+[130|Normal] 
+[131|Normal] Figure 3.1: Live Executive Overview Dashboard Application UI
+[132|Normal] 
+9.1.2. PATIENT DEMOGRAPHICS MODULE
+The Patient Demographics Module allows staff members to manage patient demographic breakdowns through the system.
+• Demographics Handling: Agents can analyze new patient cohorts by checking availability and entering details into the system.
+• Modification of Parameters: Staff are allowed to modify query details whenever requested.
+• User Assistance: Provides analytical support, checking status, and resolving issues.
+[133|Normal] 
+[134|Normal] Figure 3.2: Live Patient Demographics Analytics Dashboard UI
+[135|Normal] 
+9.1.3. DISEASE ANALYSIS MODULE
+Designed for users who analyze disease conditions and medication regimens.
+• Analytics Facility: Users can search medical conditions, select options, and view charts.
+• Viewing Details: Users can view medical condition prevalence, medication regimens, and lab test results.
+• Preferences and Requests: Allows defining filter preferences for personalized analytics.
+[136|Normal] 
+[137|Normal] Figure 3.3: Live Disease Analytics Dashboard UI
+[138|Normal] 
+9.1.4. HOSPITAL OPERATIONS MODULE
+Responsible for handling hospital throughput, length of stay, and doctor workload metrics.
+• Operational Processing: Processes admission types, doctor assignments, and room numbers safely.
+• Performance Records: Automatically updates hospital performance metrics stored in the database.
+• Resource Management: Allows management to track daily room rates and length of stay.
+[139|Normal] 
+[140|Normal] Figure 3.4: Live Hospital Operations & LOS Dashboard UI
+[141|Normal] 
+9.1.5. FINANCIAL ANALYTICS MODULE
+Handles billing amounts, revenue breakdowns, and insurance provider payments.
+• Financial Processing: Analyzes total billing amounts ($255.4M cumulative) across insurance providers.
+• Revenue Confirmation & Records: Automatically generates billing summaries and stores transactions in the database.
+• High-Cost Case Management: Identifies outlier billing cases and provides cost optimization insights.
+[142|Normal] 
+[143|Normal] Figure 3.5: Live Financial Analytics & Revenue Billing Dashboard UI
+[144|Normal] 
+9.1.6. MACHINE LEARNING INSIGHTS MODULE
+Features predictive machine learning models including K-Means clustering, Random Forest classifier, and composite patient risk scoring.
+[145|Normal] 
+[146|Normal] Figure 3.6: K-Means Clustering & Random Forest Classifier Confusion Matrix
+[147|Normal] 9.2. BENEFITS OF THE HEALTHCARE DASHBOARD SYSTEM
+The Healthcare Data Analysis and Visualization Dashboard provides several advantages for both users and organizations. It helps in improving the analytical process by reducing manual work and increasing operational efficiency. Some important benefits are explained below:
+
+Reduces Manual Errors in Record Management
+One of the major benefits of the system is the reduction of manual errors. In traditional systems, details were entered manually, creating mistakes such as duplicate records, incorrect information, or missing data. The automated system maintains accurate details and minimizes human errors.
+
+Saves Time and Reduces Paperwork
+The system saves valuable time for users and administrators. Users can complete data queries quickly through the internet without visiting physical offices. All records are maintained electronically in the database, making record management faster and more organized.
+
+Provides Quick and Easy Analytical Facilities
+The system provides a simple and user-friendly analytical process. Users can check metrics, select suitable options, and generate reports within a few minutes from any location using internet-enabled devices.
+
+Improves Operational Efficiency and Productivity
+The system automates many activities that were previously handled manually. This reduces employee workload and improves productivity by handling data, modifications, and reports quickly and accurately.
+
+Maintains Records Securely in the Database
+All details and user information are stored securely in a centralized SQLite database. Proper backup and security features help in protecting data from unauthorized access.
+
+Provides Better Customer Service and Satisfaction
+The system improves user experience by providing faster and more reliable analytical services. Quick service and accurate information increase user satisfaction and trust.
+
+Allows Online Access from Any Location
+Customers can use the dashboard system from anywhere using computers, laptops, tablets, or mobile phones connected to the internet.
+
+Improves Communication Between Users and Administrators
+The system provides online interaction facilities, automated notifications, and quick response support.
+[148|Normal] 9.3. KEY CHALLENGES OF THE HEALTHCARE DASHBOARD SYSTEM
+• Technical Problems and System Failures: Problems such as server downtime, software bugs, or slow loading speed can affect data processing.
+• Data Security and Privacy Risks: Protecting sensitive patient data from unauthorized access and cyber-attacks is a major challenge.
+• Internet Dependency: The system completely depends on internet connectivity for its operation.
+• Managing High User Traffic: During peak periods, a large number of users may access the system at the same time, increasing server load.
+• Payment / Financial Processing Issues: Financial errors or query delays can create user frustration.
+• User Adaptability and Technical Knowledge: Users unfamiliar with digital technology may find online systems difficult to use.
+• Maintenance and System Updates: Regular maintenance and software updates are necessary to maintain performance.
+• Data Management Challenges: Managing large amounts of data becomes difficult as data size increases.
+[149|Normal] HOW TO OVERCOME THE CHALLENGES OF THE HEALTHCARE DASHBOARD SYSTEM
+• Using Strong Technical Infrastructure: Deploying powerful servers and modern cloud hosting reduces downtime.
+• Improving Data Security and Privacy: Implementing encryption, secure login, firewalls, and antivirus software protects sensitive data.
+• Providing Better Internet and Network Support: Optimizing code for fast loading even on slower network connections.
+• Managing High User Traffic Efficiently: Using scalable cloud servers and load balancing prevents server overload.
+• Preventing Query Errors: Automated validation systems verify query inputs before execution.
+• Designing User-Friendly Interfaces: Providing simple navigation menus and clear instructions improves user experience.
+• Regular Maintenance and Software Updates: Continuous monitoring and updates keep the application bug-free.
+• Maintaining Proper Database Management: Database optimization improves speed, data accuracy, and report generation.
+[150|Normal] 9.4. SYSTEM STUDY AND ANALYSIS
+9.4.1. EXISTING SYSTEM
+In the existing system, most data entries and analytical reports are handled manually, making the process time-consuming and error-prone. Organizing and maintaining physical files is complicated.
+Limitations of the existing system:
+• Modifications are complicated
+• Much time consuming
+• Error prone
+• Unauthorized access of data
+
+9.4.2. PROPOSED SYSTEM
+The proposed Healthcare Dashboard overcomes all disadvantages of the existing system. It is automated, fast, secure, and user-friendly. It reduces manual work and provides interactive visual analytics with built-in machine learning.
+Advantages of the proposed system:
+• Complex functions are done automatically
+• Processing time can be minimized
+• Simple and easy to manage
+• Possible to obtain accurate results
+• Chances of errors reduced
+• Faster and more accurate than existing system
+• Easy for handling reports
+
+9.4.3. FEASIBILITY STUDY
+• Technical Feasibility: Required Python, SQLite, and Streamlit technologies are available.
+• Operational Feasibility: System satisfies user requirements with simple interface.
+• Economic Feasibility: Cost-effective solution using open-source technologies.
+
+9.4.7. SYSTEM DESIGN & 9.4.8. INPUT / OUTPUT DESIGN
+Input screens include Login Form, Registration Form, Sidebar Filter Form, and Analytical Request Form. Output screens include Homepage, Executive Overview Form, Demographics Form, Disease Analysis Form, and ML Insights Form.
+[151|Normal] ****************************
+[152|Normal] 
+[153|Normal] 10. CHAPTER NO: 3
+10.1. RESEARCH DESIGN AND METHODOLOGY
+[154|Normal] Research Methodology
+The following methodology was adopted in the project:
+1. Understanding the theoretical concepts related to the healthcare dashboard system.
+2. Analysis of the secondary data.
+
+RESEARCH DESIGN
+Research design refers to the arrangement of conditions for collecting and analyzing data in a way that combines relevance to research purpose with efficiency. The present study is descriptive in nature.
+
+Type of Research
+The study focuses on describing the characteristics, features, and functioning of the system based on data collected using a structured questionnaire.
+
+Data Collection Methods
+1. Secondary Data: Collected from books, journals, and the Kaggle 10,000-patient dataset.
+
+Sampling Procedure & Sample Size
+The sample size collected for this research is 100 respondents. The responses help in understanding system effectiveness, advantages, and challenges.
+[155|Normal] ****************************
+[156|Normal] 
+[157|Normal] 11. CHAPTER NO: 5
+11.1. DATA ANALYSIS AND INTERPRETATION
+[158|Normal] Q1. The Healthcare Data Analysis and Visualization Dashboard is easy to access and use.
+[159|Normal] 
+[160|Normal] Interpretation
+The above table shows that 42% of respondents strongly agree and 38% agree that the Healthcare Dashboard is easy to access and use. This indicates that the system interface is user-friendly and supports smooth navigation. Only a small percentage expressed dissatisfaction.
+[161|Normal] Q2. The system provides quick response time during healthcare data processing.
+[162|Normal] 
+[163|Normal] Interpretation
+The data indicates that 76% of respondents agree that the system provides quick response time during data analytical activities. Fast response time improves user satisfaction.
+[164|Normal] Q3. The Healthcare Dashboard provides accurate patient and clinical information.
+[165|Normal] 
+[166|Normal] Interpretation
+The table shows that most respondents believe that the system provides accurate healthcare details and patient information, reducing errors.
+[167|Normal] Q4. The system security features protect patient data effectively.
+[168|Normal] 
+[169|Normal] Interpretation
+The majority of respondents agree that the system provides secure handling of patient information and database records.
+[170|Normal] Q5. The financial analytics and billing metrics are secure and reliable.
+[171|Normal] 
+[172|Normal] Interpretation
+The data shows that 77% of respondents believe that the financial analytics and billing calculations are secure and reliable.
+[173|Normal] Q6. The system minimizes manual errors during record processing.
+[174|Normal] 
+[175|Normal] Interpretation
+The majority of respondents agree that automation in the dashboard helps reduce manual errors and improves analytical accuracy.
+[176|Normal] Q7. The database system stores patient records efficiently.
+[177|Normal] 
+[178|Normal] Interpretation
+The table indicates that most respondents are satisfied with the SQLite database management and record storage speed.
+[179|Normal] Q8. The Healthcare Dashboard is available and accessible at all times.
+[180|Normal] 
+[181|Normal] Interpretation
+Most respondents agree that the system provides good online accessibility and availability for medical officers.
+[182|Normal] Q9. The dashboard handles complex filtering and multi-dimensional analysis effectively.
+[183|Normal] 
+[184|Normal] Interpretation
+The data shows that users are generally satisfied with the interactive filtering and multi-page features of the system.
+[185|Normal] Q10. The system provides proper machine learning insights and risk notifications.
+[186|Normal] 
+[187|Normal] Interpretation
+The majority of respondents agree that integrated machine learning insights enhance predictive decision support.
+[188|Normal] Q11. The system performs efficiently during high data volume.
+[189|Normal] 
+[190|Normal] Interpretation
+The table shows that most respondents are satisfied with system performance during high data processing.
+[191|Normal] Q12. The Healthcare Dashboard improves overall decision-making efficiency.
+[192|Normal] 
+[193|Normal] Interpretation
+The majority of respondents believe that the Healthcare Dashboard improves overall clinical and administrative decision efficiency.
+[194|Normal] ****************************
+[195|Normal] 
+[196|Normal] 12. CHAPTER NO: 6
+12.1. FINDINGS AND RECOMMENDATIONS
+[197|Normal] FINDINGS
+• User-Friendly Interface Improves Analytical Experience: The study found that most respondents are satisfied with the user-friendly design of the Healthcare Dashboard. Users can easily access the system, navigate through different pages, and complete analytical activities without difficulty. A simple and interactive interface improves user convenience and encourages more users to use online dashboard services.
+
+• Fast Response Time Enhances User Satisfaction: The findings indicate that quick system response time plays an important role in improving user satisfaction. Most users agreed that the dashboard processes queries and displays confirmation messages quickly. Faster response time reduces waiting periods and improves the overall analytical experience.
+
+• Automated Processing Reduces Manual Errors: The study found that automation helps minimize manual errors in data management. The Healthcare Dashboard improves accuracy by automatically processing patient details, storing records, and validating user inputs. This reduces duplicate entries, incorrect records, and data management problems.
+
+• Secure Data Handling Increases User Trust: Most respondents agreed that security features such as password protection, authentication, and secure database processing improve trust in the Healthcare Dashboard. Users feel more confident while using the system when their personal and medical information is protected properly.
+
+• Efficient Database Storage Improves Record Maintenance: The findings show that proper database management helps maintain records efficiently. The system stores patient information, clinical details, billing records, and admission data securely in the SQLite database. Efficient database handling improves retrieval speed, data accuracy, and operational performance.
+
+• Online Accessibility Provides Greater Convenience: The study found that users prefer the Healthcare Dashboard because it allows analytical services to be accessed anytime and from any location. Online accessibility saves time and reduces the need for physical visits to record archives. This feature improves convenience and flexibility for users.
+
+• Technical Issues Affect System Performance During Peak Usage: The findings also indicate that some users experienced technical issues such as slow processing or internet dependency during high traffic periods. Although the system performs efficiently most of the time, technical problems during busy periods may affect user satisfaction.
+[198|Normal] RECOMMENDATIONS
+• Improve System Performance and Server Capacity: Organizations should improve server infrastructure and system capacity to handle high user traffic efficiently. Better server management can reduce system delays, improve processing speed, and ensure smooth dashboard services during peak periods.
+
+• Strengthen Security Features: Strong security measures such as data encryption, secure login systems, multi-factor authentication, and firewall protection should be implemented to protect patient information and billing details. Improved security will increase user trust and reduce cybersecurity risks.
+
+• Enhance User Interface Design: The Healthcare Dashboard should provide a simple, attractive, and easy-to-use interface for users. Clear navigation menus, proper instructions, and responsive design can improve user experience and make analytical activities easier.
+
+• Improve Data Processing Systems: The system should support multiple secure data formats and APIs. Fast transaction verification and proper error management should also be maintained to improve user convenience and system reliability.
+
+• Conduct Regular System Maintenance: Regular software updates, testing, and maintenance activities should be performed to improve system performance and remove technical problems. Continuous monitoring can help identify errors quickly and improve overall system reliability.
+
+• Maintain Efficient Database Management: Organizations should use efficient database management techniques to store records securely and accurately. Regular database backup and optimization can improve data security, retrieval speed, and operational efficiency.
+
+• Provide Effective User Support: User support services should be strengthened to solve problems related to queries, login issues, or data loading. Quick response to user complaints and technical issues can improve user satisfaction and trust in the system.
+[199|Normal] ****************************
+[200|Normal] 
+[201|Normal] 13. CHAPTER NO: 7
+13.1. CONCLUSIONS AND SUGGESTIONS
+[202|Normal] CONCLUSIONS
+The study on the Healthcare Data Analysis and Visualization Dashboard shows that online analytical platforms have become an important part of modern service management. The system helps users make data decisions quickly, easily, and conveniently through internet-based services. The findings of the study indicate that the Healthcare Dashboard improves operational efficiency, reduces manual errors, and provides better data management through automation and database support. Most users are satisfied with the usability, security, accessibility, and performance of the system.
+
+The study also highlights that factors such as quick response time, secure data processing, user-friendly interface, and efficient database management play an important role in improving user satisfaction. Although some technical issues such as server delays and internet dependency were identified, the overall performance of the system was found to be effective and reliable. The Healthcare Dashboard therefore provides a faster, more secure, and convenient analytical process compared to traditional manual reporting methods.
+[203|Normal] SUGGESTIONS
+• Improve server capacity to handle high user traffic efficiently.
+• Implement stronger cybersecurity measures to protect patient information and billing data.
+• Provide a more user-friendly and responsive interface for better user experience.
+• Introduce mobile application support for easier access to analytical services.
+• Conduct regular software maintenance and updates to improve system performance.
+• Strengthen user support services for quick resolution of issues and complaints.
+[204|Normal] ****************************
+[205|Normal] 
+[206|Normal] 14. ANNEXURE (QUESTIONNAIRE)
+[207|Normal] Q1. The Healthcare Data Analysis and Visualization Dashboard is easy to access and use.
+[208|Normal] 
+[209|Normal] Q2. The system provides quick response time during healthcare data processing.
+[210|Normal] 
+[211|Normal] Q3. The Healthcare Dashboard provides accurate patient and clinical information.
+[212|Normal] 
+[213|Normal] Q4. The system security features protect patient data effectively.
+[214|Normal] 
+[215|Normal] Q5. The financial analytics and billing metrics are secure and reliable.
+[216|Normal] 
+[217|Normal] Q6. The system minimizes manual errors during record processing.
+[218|Normal] 
+[219|Normal] Q7. The database system stores patient records efficiently.
+[220|Normal] 
+[221|Normal] Q8. The Healthcare Dashboard is available and accessible at all times.
+[222|Normal] 
+[223|Normal] Q9. The dashboard handles complex filtering and multi-dimensional analysis effectively.
+[224|Normal] 
+[225|Normal] Q10. The system provides proper machine learning insights and risk notifications.
+[226|Normal] 
+[227|Normal] Q11. The system performs efficiently during high data volume.
+[228|Normal] 
+[229|Normal] Q12. The Healthcare Dashboard improves overall decision-making efficiency.
+[230|Normal] 
+[231|Normal] ****************************
+[232|Normal] 
+[233|Normal] 15. REFERENCE (BIBLIOGRAPHY)
+[234|Normal] • 1. Kumar, R., & Sharma, P. (2023). Modern web application development using Python and Streamlit (pp. 45–92). BPB Publications.
+[235|Normal] • 2. Gupta, S., & Verma, A. (2024). Database management systems and applications (pp. 110–165). McGraw-Hill Education.
+[236|Normal] • 3. Singh, R. (2023). Advanced software engineering concepts for web systems (pp. 78–140). Pearson Education India.
+[237|Normal] • 4. Patel, M., & Joshi, N. (2025). Healthcare data analytics and digital hospital management (pp. 95–155). Wiley India.
+[238|Normal] • 5. Sharma, V., & Mehta, K. (2024). Front-end technologies with Streamlit, HTML5, and Plotly (pp. 60–120). Dreamtech Press.
+[239|Normal] • 6. Agarwal, P. (2023). Python programming and data science technologies (pp. 180–245). S. Chand Publishing.
+[240|Normal] • 7. Reddy, K., & Nair, S. (2025). Cloud-based healthcare analytics management systems (pp. 130–198). Springer Publications.
+[241|Normal] • 8. Jain, A. (2024). Database design and SQLite implementation (pp. 88–149). Oxford University Press.
+[242|Normal] • 9. Malhotra, D., & Arora, H. (2023). System analysis and design for modern applications (pp. 102–170). Cengage Learning India.
+[243|Normal] • 10. Thomas, J., & Roy, P. (2025). Secure data systems and payment protection (pp. 140–205). Taylor & Francis.
+[244|Normal] • 11. Bhattacharya, S. (2024). Web visualization using Streamlit and Plotly (pp. 55–118). Packt Publishing.
+[245|Normal] • 12. Kapoor, N., & Yadav, R. (2023). Software testing and quality assurance techniques (pp. 98–162). BPB Publications.
+[246|Normal] • 13. Choudhary, P. (2025). Information systems and digital transformation (pp. 115–180). Pearson Education.
+[247|Normal] • 14. Das, R., & Iyer, V. (2024). Cybersecurity and database protection for web applications (pp. 75–143). McGraw-Hill Education.
+[248|Normal] • 15. Mishra, S., & Kulkarni, A. (2023). E-commerce and healthcare analytical management systems (pp. 90–158). Wiley Publications.
+[249|Normal] ****************************
+[250|Normal] 
+[251|Normal] 16. APPENDIX A: POWERPOINT PRESENTATION SLIDE DECK
+[252|Normal] The following section presents the complete 20-slide executive presentation deck prepared for viva-voce defense and project demonstration, detailing slide titles, graphic layout structures, core bullet points, and speaker notes scripts.
+[253|Normal] 📌 Slide 1: Title Slide
+[254|Normal] 
+[255|Normal] 📌 Slide 2: Introduction & Project Context
+[256|Normal] 
+[257|Normal] 📌 Slide 3: Statement of the Problem
+[258|Normal] 
+[259|Normal] 📌 Slide 4: Project Objectives
+[260|Normal] 
+[261|Normal] 📌 Slide 5: System Requirements & Skills Used
+[262|Normal] 
+[263|Normal] 📌 Slide 6: System Architecture & Data Flow
+[264|Normal] 
+[265|Normal] 📌 Slide 7: Module 1 - Executive Overview
+[266|Normal] 
+[267|Normal] 📌 Slide 8: Module 2 - Patient Demographics
+[268|Normal] 
+[269|Normal] 📌 Slide 9: Module 3 - Disease Analysis
+[270|Normal] 
+[271|Normal] 📌 Slide 10: Module 4 - Hospital Operations
+[272|Normal] 
+[273|Normal] 📌 Slide 11: Module 5 - Financial Analytics
+[274|Normal] 
+[275|Normal] 📌 Slide 12: Module 6 - Machine Learning Insights
+[276|Normal] 
+[277|Normal] 📌 Slide 13: Research Methodology & Sampling
+[278|Normal] 
+[279|Normal] 📌 Slide 14: Mathematical & Statistical Techniques
+[280|Normal] 
+[281|Normal] 📌 Slide 15: Empirical Survey Results
+[282|Normal] 
+[283|Normal] 📌 Slide 16: Key Findings
+[284|Normal] 
+[285|Normal] 📌 Slide 17: Managerial Recommendations
+[286|Normal] 
+[287|Normal] 📌 Slide 18: System Limitations
+[288|Normal] 
+[289|Normal] 📌 Slide 19: Guidelines for Future Work
+[290|Normal] 
+[291|Normal] 📌 Slide 20: Conclusion & Q&A
+[292|Normal] 
+[293|Normal] ****************************
+[294|Normal] 
+[295|Normal] 17. APPENDIX B: COMPLETE PROJECT SOURCE CODE LISTING
+[296|Normal] The following section presents the complete, un-truncated source code for the 6 core dashboard page modules (01_Overview.py, 02_Patient_Demographics.py, 03_Disease_Analysis.py, 04_Hospital_Operations.py, 05_Financial_Analysis.py, 06_ML_Insights.py), main entry point (app.py), database seed pipeline, and analytics engines as present in the project workspace.
+[297|Normal] 📄 File: pages/01_Overview.py (Page 1: Executive Overview Module)
+[298|Normal] """
+Page 1: Overview - Executive KPIs & Trend Analysis
+"""
+import os
+import streamlit as st
+import pandas as pd
+
+st.set_page_config(page_title="Overview | Healthcare Dashboard", page_icon="+", layout="wide")
+
+css_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "assets", "style.css")
+with open(css_path, "r", encoding="utf-8") as f:
+    st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+
+from analytics.overview import (
+    get_kpis, get_monthly_trend, get_yearly_trend,
+    get_condition_summary, get_recent_records,
+)
+from visualizations.charts import area_chart, bar_chart, line_chart, donut_chart
+from visualizations.kpis import metric_row, section_header
+
+# Header
+st.markdown("""
+<div class="hero-banner">
+    <h1 style="color:#f1f5f9;font-size:28px;font-weight:800;margin:0 0 6px">
+        Executive Overview
+    </h1>
+    <p style="color:#93c5fd;margin:0;font-size:14px">
+        High-level KPIs and trend analysis across the entire healthcare dataset
+    </p>
+</div>
+""", unsafe_allow_html=True)
+
+# Sidebar filters
+with st.sidebar:
+    st.markdown("### Filters")
+    year_range = st.slider("Year Range", 2019, 2024, (2019, 2024))
+
+# Load data
+with st.spinner("Loading data..."):
+    try:
+        kpis       = get_kpis()
+        monthly    = get_monthly_trend()
+        yearly     = get_yearly_trend()
+        conditions = get_condition_summary()
+        recent     = get_recent_records(50)
+        data_ok    = True
+    except Exception as e:
+        st.error(f"Database error: {e}")
+        st.info("Make sure the dataset is loaded: `python database/loader.py`")
+        data_ok = False
+
+if not data_ok:
+    st.stop()
+
+# KPI Row 1
+section_header("Key Performance Indicators", "Core metrics across the entire dataset")
+
+metric_row([
+    {"label": "Total Records",    "value": f"{int(kpis['total_records']):,}",   "icon": ""},
+    {"label": "Unique Patients",  "value": f"{int(kpis['unique_patients']):,}", "icon": ""},
+    {"label": "Total Hospitals",  "value": f"{int(kpis['total_hospitals']):,}", "icon": ""},
+    {"label": "Total Doctors",    "value": f"{int(kpis['total_doctors']):,}",   "icon": ""},
+])
+
+st.markdown("<br>", unsafe_allow_html=True)
+
+metric_row([
+    {"label": "Total Revenue",       "value": f"Rs.{kpis['total_revenue']/1e6:.1f}M",  "icon": ""},
+    {"label": "Avg Billing",         "value": f"Rs.{kpis['avg_billing']:,.0f}",         "icon": ""},
+    {"label": "Avg Length of Stay",  "value": f"{kpis['avg_los']:.1f} days",            "icon": ""},
+    {"label": "Abnormal Test Rate",  "value": f"{kpis['abnormal_rate']:.1f}%",
+     "delta": "needs attention", "delta_color": "red", "icon": ""},
+])
+
+st.markdown("---")
+
+# Monthly trend
+section_header("Monthly Admissions & Revenue Trend")
+
+monthly["month"] = pd.to_datetime(monthly["month"])
+col1, col2 = st.columns(2)
+with col1:
+    fig = area_chart(monthly, x="month", y="admissions", title="Monthly Admissions")
+    st.plotly_chart(fig, use_container_width=True)
+with col2:
+    fig = area_chart(monthly, x="month", y="revenue", title="Monthly Revenue (Rs.)")
+    st.plotly_chart(fig, use_container_width=True)
+
+col3, col4 = st.columns(2)
+with col3:
+    fig = line_chart(monthly, x="month", y="avg_billing",
+                     title="Avg Billing Amount Over Time (Rs.)")
+    st.plotly_chart(fig, use_container_width=True)
+with col4:
+    fig = line_chart(monthly, x="month", y="avg_los",
+                     title="Avg Length of Stay Over Time (days)")
+    st.plotly_chart(fig, use_container_width=True)
+
+st.markdown("---")
+
+# Condition summary
+section_header("Top Medical Conditions", "Cases, average billing & abnormal test rates")
+
+col5, col6 = st.columns([1.4, 1])
+with col5:
+    fig = bar_chart(
+        conditions.head(10),
+        x="medical_condition", y="count",
+        title="Cases by Medical Condition",
+        color_discrete_sequence=["#2563EB"],
+    )
+    fig.update_layout(xaxis_tickangle=-30)
+    st.plotly_chart(fig, use_container_width=True)
+with col6:
+    fig = donut_chart(
+        conditions,
+        names="medical_condition",
+        values="count",
+        title="Condition Distribution",
+    )
+    st.plotly_chart(fig, use_container_width=True)
+
+fig = bar_chart(
+    conditions.sort_values("avg_billing", ascending=True),
+    x="avg_billing", y="medical_condition",
+    title="Average Billing Amount by Condition (Rs.)",
+    orientation="h",
+    color_discrete_sequence=["#10B981"],
+)
+st.plotly_chart(fig, use_container_width=True)
+
+st.markdown("---")
+
+# Recent records table
+section_header("Recent Admissions", "Latest 50 patient records")
+
+col_a, col_b, col_c = st.columns([1, 1, 4])
+with col_a:
+    cond_filter = st.selectbox("Filter Condition",
+        ["All"] + sorted(recent["medical_condition"].unique().tolist()))
+with col_b:
+    result_filter = st.selectbox("Test Result",
+        ["All"] + sorted(recent["test_results"].dropna().unique().tolist()))
+
+filtered = recent.copy()
+if cond_filter  != "All": filtered = filtered[filtered["medical_condition"] == cond_filter]
+if result_filter != "All": filtered = filtered[filtered["test_results"] == result_filter]
+
+st.dataframe(
+    filtered.style.map(
+        lambda v: "color: #10B981" if v == "Normal"
+             else "color: #EF4444" if v == "Abnormal"
+             else "color: #F59E0B" if v == "Inconclusive"
+             else "",
+        subset=["test_results"]
+    ),
+    use_container_width=True, height=300,
+)
+
+# Download
+st.download_button(
+    "Download Recent Records (CSV)",
+    data      = filtered.to_csv(index=False),
+    file_name = "recent_records.csv",
+    mime      = "text/csv",
+)
+[299|Normal] 
+[300|Normal] 📄 File: pages/02_Patient_Demographics.py (Page 2: Patient Demographics Module)
+[301|Normal] """
+Page 2: Patient Demographics
+"""
+import os
+import streamlit as st
+import pandas as pd
+
+st.set_page_config(page_title="Patient Demographics | Healthcare Dashboard", page_icon="+", layout="wide")
+css_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "assets", "style.css")
+with open(css_path, "r", encoding="utf-8") as f:
+    st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+
+from analytics.patient_analytics import (
+    get_age_distribution, get_gender_breakdown, get_blood_type_distribution,
+    get_insurance_breakdown, get_age_gender_heatmap, get_age_vs_billing,
+    get_condition_by_gender,
+)
+from visualizations.charts import (
+    bar_chart, donut_chart, grouped_bar, scatter_chart, heatmap, histogram
+)
+from visualizations.kpis import section_header, metric_row
+
+# Header
+st.markdown("""
+<div class="hero-banner">
+    <h1 style="color:#f1f5f9;font-size:28px;font-weight:800;margin:0 0 6px">
+        Patient Demographics
+    </h1>
+    <p style="color:#93c5fd;margin:0;font-size:14px">
+        Explore patient population by age, gender, blood type, insurance and more
+    </p>
+</div>
+""", unsafe_allow_html=True)
+
+with st.spinner("Loading demographic data..."):
+    try:
+        age_df     = get_age_distribution()
+        gender_df  = get_gender_breakdown()
+        blood_df   = get_blood_type_distribution()
+        ins_df     = get_insurance_breakdown()
+        heat_df    = get_age_gender_heatmap()
+        scatter_df = get_age_vs_billing()
+        cond_gen   = get_condition_by_gender()
+        data_ok    = True
+    except Exception as e:
+        st.error(f"Database error: {e}")
+        data_ok = False
+
+if not data_ok:
+    st.stop()
+
+# KPI metrics
+section_header("Population Summary")
+metric_row([
+    {"label": "Total Records",
+     "value": f"{age_df['count'].sum():,}", "icon": ""},
+    {"label": "Male Patients",
+     "value": f"{gender_df[gender_df['gender']=='Male']['count'].sum():,}", "icon": ""},
+    {"label": "Female Patients",
+     "value": f"{gender_df[gender_df['gender']=='Female']['count'].sum():,}", "icon": ""},
+    {"label": "Insurance Providers",
+     "value": str(len(ins_df)), "icon": ""},
+])
+
+st.markdown("---")
+
+# Age & Gender distribution
+section_header("Age & Gender Analysis")
+col1, col2, col3 = st.columns(3)
+
+with col1:
+    fig = bar_chart(age_df, x="age_group", y="count",
+                    title="Patients by Age Group",
+                    color_discrete_sequence=["#2563EB"])
+    st.plotly_chart(fig, use_container_width=True)
+
+with col2:
+    fig = donut_chart(gender_df, names="gender", values="count",
+                      title="Gender Distribution")
+    st.plotly_chart(fig, use_container_width=True)
+
+with col3:
+    fig = bar_chart(gender_df, x="gender", y="avg_billing",
+                    title="Avg Billing by Gender (Rs.)",
+                    color_discrete_sequence=["#10B981", "#F59E0B"])
+    st.plotly_chart(fig, use_container_width=True)
+
+# Age-Gender heatmap
+section_header("Age Group x Gender Heatmap")
+pivot = heat_df.pivot_table(index="age_group", columns="gender",
+                            values="count", aggfunc="sum", fill_value=0)
+age_order = ["Under 18", "18-29", "30-44", "45-59", "60-74", "75+"]
+pivot = pivot.reindex([a for a in age_order if a in pivot.index])
+fig = heatmap(pivot, title="Patient Count by Age Group and Gender", colorscale="Blues")
+st.plotly_chart(fig, use_container_width=True)
+
+st.markdown("---")
+
+# Blood type
+section_header("Blood Type Distribution")
+col4, col5 = st.columns(2)
+with col4:
+    fig = bar_chart(blood_df, x="blood_type", y="count",
+                    title="Patients by Blood Type",
+                    color_discrete_sequence=["#EF4444"])
+    st.plotly_chart(fig, use_container_width=True)
+with col5:
+    fig = donut_chart(blood_df, names="blood_type", values="count",
+                      title="Blood Type Distribution")
+    st.plotly_chart(fig, use_container_width=True)
+
+st.markdown("---")
+
+# Insurance provider
+section_header("Insurance Provider Analysis")
+col6, col7 = st.columns([1.3, 1])
+with col6:
+    fig = bar_chart(ins_df, x="insurance_provider", y="total_billed",
+                    title="Total Billing by Insurance Provider (Rs.)",
+                    color_discrete_sequence=["#8B5CF6"])
+    st.plotly_chart(fig, use_container_width=True)
+with col7:
+    fig = donut_chart(ins_df, names="insurance_provider", values="patients",
+                      title="Patients by Insurance Provider")
+    st.plotly_chart(fig, use_container_width=True)
+
+# Insurance detail table
+with st.expander("Insurance Provider Detail Table"):
+    st.dataframe(ins_df.style.format({
+        "total_billed": "Rs.{:,.0f}",
+        "avg_billed":   "Rs.{:,.0f}",
+        "pct":          "{:.1f}%",
+    }), use_container_width=True)
+
+st.markdown("---")
+
+# Age vs Billing scatter
+section_header("Age vs Billing Amount", "Each dot represents a patient record")
+fig = scatter_chart(
+    scatter_df, x="age", y="billing_amount",
+    color="medical_condition",
+    title="Age vs. Billing Amount by Medical Condition",
+    hover_data=["gender"],
+)
+st.plotly_chart(fig, use_container_width=True)
+
+# Condition by gender
+section_header("Medical Conditions by Gender")
+fig = grouped_bar(
+    cond_gen, x="medical_condition", y="count", color="gender",
+    title="Condition Distribution by Gender",
+    barmode="group",
+)
+fig.update_layout(xaxis_tickangle=-25)
+st.plotly_chart(fig, use_container_width=True)
+
+# Download buttons
+st.markdown("---")
+col_dl1, col_dl2, col_dl3 = st.columns(3)
+with col_dl1:
+    st.download_button("Download Age Distribution", age_df.to_csv(index=False),
+                       "age_distribution.csv", "text/csv")
+with col_dl2:
+    st.download_button("Download Insurance Data", ins_df.to_csv(index=False),
+                       "insurance_breakdown.csv", "text/csv")
+with col_dl3:
+    st.download_button("Download Blood Types", blood_df.to_csv(index=False),
+                       "blood_types.csv", "text/csv")
+[302|Normal] 
+[303|Normal] 📄 File: pages/03_Disease_Analysis.py (Page 3: Disease & Medical Condition Analysis Module)
+[304|Normal] """
+Page 3: Disease Analysis
+"""
+import os
+import streamlit as st
+import pandas as pd
+
+st.set_page_config(page_title="Disease Analysis | Healthcare Dashboard", page_icon="🦠", layout="wide")
+css_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "assets", "style.css")
+with open(css_path, "r", encoding="utf-8") as f:
+    st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+
+from analytics.disease_analytics import (
+    get_top_conditions, get_condition_trend, get_condition_by_age_group,
+    get_medication_distribution, get_medication_summary,
+    get_test_results_by_condition, get_condition_severity_proxy,
+)
+from visualizations.charts import (
+    bar_chart, donut_chart, grouped_bar, line_chart, treemap, scatter_chart
+)
+from visualizations.kpis import section_header, metric_row
+
+# Header
+st.markdown("""
+<div class="hero-banner">
+    <h1 style="color:#f1f5f9;font-size:28px;font-weight:800;margin:0 0 6px">
+        🦠 Disease &amp; Medical Condition Analysis
+    </h1>
+    <p style="color:#93c5fd;margin:0;font-size:14px">
+        Diagnoses, medications, test results &amp; disease burden analysis
+    </p>
+</div>
+""", unsafe_allow_html=True)
+
+with st.sidebar:
+    st.markdown("### 🔍 Filters")
+    top_n = st.slider("Top N Conditions", 3, 10, 6)
+
+with st.spinner("Loading disease data..."):
+    try:
+        top_cond  = get_top_conditions(10)
+        trend_df  = get_condition_trend()
+        age_cond  = get_condition_by_age_group()
+        med_dist  = get_medication_distribution()
+        med_sum   = get_medication_summary()
+        test_res  = get_test_results_by_condition()
+        severity  = get_condition_severity_proxy()
+        data_ok   = True
+    except Exception as e:
+        st.error(f"Database error: {e}")
+        data_ok = False
+
+if not data_ok:
+    st.stop()
+
+# KPIs
+section_header("📊 Disease Metrics")
+metric_row([
+    {"label": "Unique Conditions",   "value": str(len(top_cond)),                          "icon": "🦠"},
+    {"label": "Most Common",         "value": top_cond.iloc[0]["medical_condition"],        "icon": "📊"},
+    {"label": "Highest Avg Billing", "value": f"Rs.{top_cond['avg_billing'].max():,.0f}",  "icon": "💰"},
+    {"label": "Max Abnormal Rate",   "value": f"{top_cond['abnormal_rate'].max():.1f}%",   "icon": "⚠️"},
+])
+
+st.markdown("---")
+
+# Top conditions
+section_header("🏆 Top Medical Conditions")
+col1, col2 = st.columns([1.5, 1])
+with col1:
+    fig = bar_chart(
+        top_cond.head(top_n),
+        x="medical_condition", y="total_cases",
+        title=f"Top {top_n} Conditions by Case Count",
+        color_discrete_sequence=["#2563EB"],
+    )
+    fig.update_layout(xaxis_tickangle=-20)
+    st.plotly_chart(fig, use_container_width=True)
+with col2:
+    fig = donut_chart(top_cond, names="medical_condition", values="total_cases",
+                      title="Case Distribution")
+    st.plotly_chart(fig, use_container_width=True)
+
+# Severity proxy
+section_header("📈 Condition Severity Proxy", "Avg billing & LOS as severity indicators")
+fig = scatter_chart(
+    severity, x="avg_billing", y="avg_los",
+    color="medical_condition", size="cases",
+    title="Avg Billing vs Avg LOS by Condition (bubble = case volume)",
+    hover_data=["avg_patient_age"],
+)
+st.plotly_chart(fig, use_container_width=True)
+
+st.markdown("---")
+
+# Condition trend
+section_header("📅 Condition Trend Over Time")
+cond_list = sorted(trend_df["medical_condition"].unique())
+selected_conds = st.multiselect("Select Conditions to Compare", options=cond_list, default=cond_list[:4])
+
+if selected_conds:
+    trend_filtered = trend_df[trend_df["medical_condition"].isin(selected_conds)].copy()
+    trend_filtered["month"] = pd.to_datetime(trend_filtered["month"])
+    fig = line_chart(
+        trend_filtered.sort_values("month"),
+        x="month", y="cases", color="medical_condition",
+        title="Monthly Case Trends by Condition",
+    )
+    st.plotly_chart(fig, use_container_width=True)
+
+st.markdown("---")
+
+# Conditions across age groups
+section_header("🎂 Conditions Across Age Groups")
+fig = grouped_bar(
+    age_cond, x="age_group", y="count", color="medical_condition",
+    title="Medical Condition Distribution by Age Group",
+    barmode="stack",
+)
+age_order = ["Under 18", "18-29", "30-44", "45-59", "60-74", "75+"]
+fig.update_xaxes(categoryorder="array", categoryarray=age_order)
+st.plotly_chart(fig, use_container_width=True)
+
+st.markdown("---")
+
+# Medications
+section_header("💊 Medication Analysis")
+col3, col4 = st.columns(2)
+with col3:
+    fig = bar_chart(
+        med_sum.sort_values("total_prescribed", ascending=True).tail(10),
+        x="total_prescribed", y="medication",
+        orientation="h",
+        title="Most Prescribed Medications",
+        color_discrete_sequence=["#8B5CF6"],
+    )
+    st.plotly_chart(fig, use_container_width=True)
+with col4:
+    fig = bar_chart(
+        med_sum.sort_values("avg_cost", ascending=True).tail(10),
+        x="avg_cost", y="medication",
+        orientation="h",
+        title="Avg Cost per Medication (Rs.)",
+        color_discrete_sequence=["#F59E0B"],
+    )
+    st.plotly_chart(fig, use_container_width=True)
+
+# Treemap
+section_header("🗺️ Medication x Condition Treemap")
+fig = treemap(
+    med_dist.head(80),
+    path=["medical_condition", "medication"],
+    values="count",
+    title="Medication Distribution by Medical Condition",
+)
+st.plotly_chart(fig, use_container_width=True)
+
+st.markdown("---")
+
+# Test results
+section_header("🔬 Test Results by Condition")
+col5, col6 = st.columns([1.6, 1])
+with col5:
+    fig = grouped_bar(
+        test_res, x="medical_condition", y="count", color="test_results",
+        title="Test Results Distribution by Condition",
+        barmode="group",
+    )
+    fig.update_layout(xaxis_tickangle=-25)
+    st.plotly_chart(fig, use_container_width=True)
+with col6:
+    res_total = test_res.groupby("test_results")["count"].sum().reset_index()
+    fig = donut_chart(res_total, names="test_results", values="count",
+                      title="Overall Test Results")
+    st.plotly_chart(fig, use_container_width=True)
+
+# Condition detail table
+with st.expander("📋 Condition Detail Table (Abnormal Rates)"):
+    display_df = top_cond[[
+        "medical_condition", "total_cases", "avg_billing", "avg_los", "abnormal_rate"
+    ]].rename(columns={
+        "medical_condition": "Condition",
+        "total_cases":       "Cases",
+        "avg_billing":       "Avg Billing",
+        "avg_los":           "Avg LOS (days)",
+        "abnormal_rate":     "Abnormal Rate %",
+    })
+    st.dataframe(
+        display_df.style
+            .format({"Avg Billing": "Rs.{:,.0f}", "Avg LOS (days)": "{:.1f}", "Abnormal Rate %": "{:.1f}%"})
+            .background_gradient(subset=["Abnormal Rate %"], cmap="Reds"),
+        use_container_width=True,
+    )
+
+st.markdown("---")
+st.download_button("⬇️ Download Disease Analysis (CSV)",
+    top_cond.to_csv(index=False), "disease_analysis.csv", "text/csv")
+[305|Normal] 
+[306|Normal] 📄 File: pages/04_Hospital_Operations.py (Page 4: Hospital Operations Module)
+[307|Normal] """
+Page 4: Hospital Operations
+"""
+import os
+import streamlit as st
+import pandas as pd
+
+st.set_page_config(page_title="Hospital Operations | Healthcare Dashboard", page_icon="🏨", layout="wide")
+css_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "assets", "style.css")
+with open(css_path, "r", encoding="utf-8") as f:
+    st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+
+from analytics.hospital_analytics import (
+    get_hospital_performance, get_admission_type_breakdown,
+    get_los_distribution, get_los_by_condition, get_doctor_performance,
+    get_admission_type_by_condition, get_weekly_admission_pattern,
+    get_room_utilization,
+)
+from visualizations.charts import (
+    bar_chart, donut_chart, grouped_bar, scatter_chart, heatmap
+)
+from visualizations.kpis import section_header, metric_row
+
+# Header
+st.markdown("""
+<div class="hero-banner">
+    <h1 style="color:#f1f5f9;font-size:28px;font-weight:800;margin:0 0 6px">
+        🏨 Hospital Operations
+    </h1>
+    <p style="color:#93c5fd;margin:0;font-size:14px">
+        Hospital &amp; doctor performance, admission patterns, length-of-stay &amp; room utilisation
+    </p>
+</div>
+""", unsafe_allow_html=True)
+
+with st.spinner("Loading operations data..."):
+    try:
+        hosp_perf = get_hospital_performance()
+        adm_type  = get_admission_type_breakdown()
+        los_dist  = get_los_distribution()
+        los_cond  = get_los_by_condition()
+        doc_perf  = get_doctor_performance()
+        adm_cond  = get_admission_type_by_condition()
+        weekly    = get_weekly_admission_pattern()
+        rooms     = get_room_utilization()
+        data_ok   = True
+    except Exception as e:
+        st.error(f"Database error: {e}")
+        data_ok = False
+
+if not data_ok:
+    st.stop()
+
+# KPIs
+section_header("📊 Operations Summary")
+metric_row([
+    {"label": "Total Hospitals",    "value": str(len(hosp_perf)),                          "icon": "🏥"},
+    {"label": "Total Doctors",      "value": str(len(doc_perf)),                           "icon": "👨‍⚕️"},
+    {"label": "Avg LOS (all)",      "value": f"{hosp_perf['avg_los'].mean():.1f} days",   "icon": "🛏️"},
+    {"label": "Top Hospital Cases", "value": f"{hosp_perf['total_admissions'].max():,}",   "icon": "🏆"},
+])
+
+st.markdown("---")
+
+# Hospital performance
+section_header("🏥 Hospital Performance Comparison")
+col1, col2 = st.columns(2)
+with col1:
+    fig = bar_chart(
+        hosp_perf.sort_values("total_admissions", ascending=True).tail(10),
+        x="total_admissions", y="hospital",
+        orientation="h",
+        title="Total Admissions by Hospital",
+        color_discrete_sequence=["#2563EB"],
+    )
+    st.plotly_chart(fig, use_container_width=True)
+with col2:
+    fig = bar_chart(
+        hosp_perf.sort_values("total_revenue", ascending=True).tail(10),
+        x="total_revenue", y="hospital",
+        orientation="h",
+        title="Total Revenue by Hospital (Rs.)",
+        color_discrete_sequence=["#10B981"],
+    )
+    st.plotly_chart(fig, use_container_width=True)
+
+fig = scatter_chart(
+    hosp_perf, x="total_admissions", y="avg_billing",
+    size="avg_los", color="hospital",
+    title="Hospital: Admissions vs Avg Billing (bubble = avg LOS)",
+    hover_data=["abnormal_rate"],
+)
+st.plotly_chart(fig, use_container_width=True)
+
+with st.expander("📋 Full Hospital Performance Table"):
+    st.dataframe(hosp_perf.style.format({
+        "avg_billing":    "Rs.{:,.0f}",
+        "total_revenue":  "Rs.{:,.0f}",
+        "avg_los":        "{:.1f}",
+        "abnormal_rate":  "{:.1f}%",
+    }), use_container_width=True)
+
+st.markdown("---")
+
+# Admission types
+section_header("🚨 Admission Type Analysis")
+col3, col4, col5 = st.columns(3)
+with col3:
+    fig = donut_chart(adm_type, names="admission_type", values="count",
+                      title="Admission Type Mix")
+    st.plotly_chart(fig, use_container_width=True)
+with col4:
+    fig = bar_chart(adm_type, x="admission_type", y="avg_billing",
+                    title="Avg Billing by Admission Type",
+                    color_discrete_sequence=["#F59E0B"])
+    st.plotly_chart(fig, use_container_width=True)
+with col5:
+    fig = bar_chart(adm_type, x="admission_type", y="avg_los",
+                    title="Avg LOS by Admission Type",
+                    color_discrete_sequence=["#EF4444"])
+    st.plotly_chart(fig, use_container_width=True)
+
+st.markdown("#### Admission Type by Medical Condition")
+pivot_adm = adm_cond.pivot_table(
+    index="medical_condition", columns="admission_type",
+    values="count", aggfunc="sum", fill_value=0,
+)
+fig = heatmap(pivot_adm, title="Admission Type x Condition Heatmap", colorscale="Viridis")
+st.plotly_chart(fig, use_container_width=True)
+
+st.markdown("---")
+
+# Length of stay
+section_header("🛏️ Length of Stay Analysis")
+col6, col7 = st.columns(2)
+with col6:
+    fig = bar_chart(los_dist, x="los", y="count",
+                    title="Length of Stay Distribution (days)",
+                    color_discrete_sequence=["#8B5CF6"])
+    st.plotly_chart(fig, use_container_width=True)
+with col7:
+    fig = bar_chart(
+        los_cond.sort_values("avg_los", ascending=True),
+        x="avg_los", y="medical_condition",
+        orientation="h",
+        title="Average LOS by Medical Condition",
+        color_discrete_sequence=["#06B6D4"],
+    )
+    st.plotly_chart(fig, use_container_width=True)
+
+st.markdown("---")
+
+# Weekly pattern
+section_header("📅 Weekly Admission Pattern")
+fig = bar_chart(
+    weekly, x="day_name", y="admissions",
+    title="Admissions by Day of Week",
+    color_discrete_sequence=["#EC4899"],
+)
+st.plotly_chart(fig, use_container_width=True)
+
+st.markdown("---")
+
+# Doctor performance
+section_header("👨‍⚕️ Top Doctor Performance")
+with st.sidebar:
+    st.markdown("### 🏥 Filters")
+    top_doc_n = st.slider("Show Top N Doctors", 5, 20, 10)
+
+doc_display = doc_perf.head(top_doc_n)
+col8, col9 = st.columns(2)
+with col8:
+    fig = bar_chart(
+        doc_display.sort_values("patients_seen", ascending=True).tail(top_doc_n),
+        x="patients_seen", y="doctor",
+        orientation="h",
+        title=f"Top {top_doc_n} Doctors by Patients Seen",
+        color_discrete_sequence=["#2563EB"],
+    )
+    st.plotly_chart(fig, use_container_width=True)
+with col9:
+    fig = scatter_chart(
+        doc_display, x="patients_seen", y="avg_billing",
+        color="avg_los",
+        title="Doctors: Patients vs Avg Billing (color = avg LOS)",
+        hover_data=["doctor", "conditions_treated"],
+    )
+    st.plotly_chart(fig, use_container_width=True)
+
+# Room utilization
+section_header("🏠 Top Room Utilization")
+fig = bar_chart(rooms, x="room_number", y="usage_count",
+                title="Most Used Room Numbers",
+                color_discrete_sequence=["#84CC16"])
+fig.update_xaxes(type="category")
+st.plotly_chart(fig, use_container_width=True)
+
+st.markdown("---")
+st.download_button("⬇️ Download Hospital Performance",
+    hosp_perf.to_csv(index=False), "hospital_performance.csv", "text/csv")
+[308|Normal] 
+[309|Normal] 📄 File: pages/05_Financial_Analysis.py (Page 5: Financial Analysis Module)
+[310|Normal] """
+Page 5: Financial Analysis
+"""
+import os
+import streamlit as st
+import pandas as pd
+
+st.set_page_config(page_title="Financial Analysis | Healthcare Dashboard", page_icon="💰", layout="wide")
+css_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "assets", "style.css")
+with open(css_path, "r", encoding="utf-8") as f:
+    st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+
+from analytics.financial_analytics import (
+    get_revenue_summary, get_revenue_by_condition, get_revenue_by_insurance,
+    get_revenue_by_admission_type, get_monthly_revenue_trend,
+    get_billing_distribution, get_revenue_by_hospital, get_high_value_cases,
+)
+from visualizations.charts import (
+    bar_chart, donut_chart, area_chart, scatter_chart, histogram, line_chart
+)
+from visualizations.kpis import section_header, metric_row
+
+# Header
+st.markdown("""
+<div class="hero-banner">
+    <h1 style="color:#f1f5f9;font-size:28px;font-weight:800;margin:0 0 6px">
+        💰 Financial Analysis
+    </h1>
+    <p style="color:#93c5fd;margin:0;font-size:14px">
+        Revenue trends, billing distribution, payer mix &amp; high-value case analysis
+    </p>
+</div>
+""", unsafe_allow_html=True)
+
+# Sidebar filter
+with st.sidebar:
+    st.markdown("### 💰 Filters")
+    hv_threshold = st.number_input(
+        "High-Value Case Threshold (Rs.)",
+        min_value=5000, max_value=100000,
+        value=30000, step=1000,
+    )
+
+with st.spinner("Loading financial data..."):
+    try:
+        rev_sum     = get_revenue_summary()
+        rev_cond    = get_revenue_by_condition()
+        rev_ins     = get_revenue_by_insurance()
+        rev_adm     = get_revenue_by_admission_type()
+        monthly_rev = get_monthly_revenue_trend()
+        bill_dist   = get_billing_distribution()
+        rev_hosp    = get_revenue_by_hospital()
+        hv_cases    = get_high_value_cases(hv_threshold)
+        data_ok     = True
+    except Exception as e:
+        st.error(f"Database error: {e}")
+        data_ok = False
+
+if not data_ok:
+    st.stop()
+
+# KPIs
+section_header("💵 Revenue Summary")
+metric_row([
+    {"label": "Total Revenue",   "value": f"Rs.{rev_sum['total_revenue']/1e6:.2f}M",  "icon": "💰"},
+    {"label": "Average Billing", "value": f"Rs.{rev_sum['avg_billing']:,.0f}",         "icon": "🧾"},
+    {"label": "Min Billing",     "value": f"Rs.{rev_sum['min_billing']:,.0f}",         "icon": "📉"},
+    {"label": "Max Billing",     "value": f"Rs.{rev_sum['max_billing']:,.0f}",         "icon": "📈"},
+])
+
+st.markdown("<br>", unsafe_allow_html=True)
+col_g1, col_g2, col_g3 = st.columns(3)
+with col_g1:
+    st.metric("Std. Deviation", f"Rs.{rev_sum['stddev_billing']:,.0f}")
+with col_g2:
+    st.metric("High-Value Cases", f"{len(hv_cases):,}",
+              help=f"Billing >= Rs.{hv_threshold:,}")
+with col_g3:
+    pct_hv = 100 * len(hv_cases) / max(rev_cond["cases"].sum(), 1)
+    st.metric("High-Value %", f"{pct_hv:.1f}%")
+
+st.markdown("---")
+
+# Monthly revenue trend
+section_header("📅 Monthly Revenue & Admission Trend")
+monthly_rev["month"] = pd.to_datetime(monthly_rev["month"])
+col1, col2 = st.columns(2)
+with col1:
+    fig = area_chart(monthly_rev, x="month", y="revenue",
+                     title="Monthly Revenue (Rs.)")
+    st.plotly_chart(fig, use_container_width=True)
+with col2:
+    fig = line_chart(monthly_rev, x="month", y="avg_billing",
+                     title="Avg Billing per Month (Rs.)")
+    st.plotly_chart(fig, use_container_width=True)
+
+st.markdown("---")
+
+# Revenue breakdown
+section_header("🏥 Revenue Breakdown")
+col3, col4 = st.columns(2)
+with col3:
+    fig = bar_chart(
+        rev_cond.sort_values("total_revenue", ascending=True),
+        x="total_revenue", y="medical_condition",
+        orientation="h",
+        title="Total Revenue by Medical Condition (Rs.)",
+        color_discrete_sequence=["#2563EB"],
+    )
+    st.plotly_chart(fig, use_container_width=True)
+with col4:
+    fig = donut_chart(rev_ins, names="insurance_provider", values="total_billed",
+                      title="Revenue by Insurance Provider")
+    st.plotly_chart(fig, use_container_width=True)
+
+col5, col6 = st.columns(2)
+with col5:
+    fig = bar_chart(
+        rev_adm, x="admission_type", y="total_revenue",
+        title="Total Revenue by Admission Type (Rs.)",
+        color_discrete_sequence=["#10B981"],
+    )
+    st.plotly_chart(fig, use_container_width=True)
+with col6:
+    fig = bar_chart(
+        rev_hosp.sort_values("total_revenue", ascending=True),
+        x="total_revenue", y="hospital",
+        orientation="h",
+        title="Revenue by Hospital (Rs.)",
+        color_discrete_sequence=["#8B5CF6"],
+    )
+    st.plotly_chart(fig, use_container_width=True)
+
+st.markdown("---")
+
+# Billing distribution
+section_header("📊 Billing Amount Distribution")
+col7, col8 = st.columns(2)
+with col7:
+    fig = histogram(bill_dist, x="billing_amount", bins=50,
+                    title="Billing Amount Histogram")
+    st.plotly_chart(fig, use_container_width=True)
+with col8:
+    fig = histogram(bill_dist, x="billing_amount", color="medical_condition",
+                    title="Billing Distribution by Condition", bins=30)
+    st.plotly_chart(fig, use_container_width=True)
+
+section_header("💸 Billing Scatter by Insurance Provider")
+fig = scatter_chart(
+    bill_dist.head(3000),
+    x="insurance_provider", y="billing_amount",
+    color="medical_condition",
+    title="Billing Amount by Insurance Provider",
+)
+st.plotly_chart(fig, use_container_width=True)
+
+st.markdown("---")
+
+# High-value cases
+section_header(f"⭐ High-Value Cases (>= Rs.{hv_threshold:,})", f"{len(hv_cases):,} cases identified")
+
+if not hv_cases.empty:
+    cond_filter = st.selectbox(
+        "Filter by Condition",
+        ["All"] + sorted(hv_cases["medical_condition"].unique().tolist()),
+    )
+    disp = hv_cases if cond_filter == "All" else hv_cases[hv_cases["medical_condition"] == cond_filter]
+
+    st.dataframe(
+        disp.style
+            .format({"billing_amount": "Rs.{:,.2f}"})
+            .background_gradient(subset=["billing_amount"], cmap="Blues"),
+        use_container_width=True, height=300,
+    )
+    st.download_button(
+        "⬇️ Download High-Value Cases",
+        disp.to_csv(index=False),
+        "high_value_cases.csv",
+        "text/csv",
+    )
+
+with st.expander("📋 Insurance Provider Detail"):
+    st.dataframe(rev_ins.style.format({
+        "total_billed": "Rs.{:,.0f}",
+        "avg_billed":   "Rs.{:,.0f}",
+        "min_billed":   "Rs.{:,.0f}",
+        "max_billed":   "Rs.{:,.0f}",
+    }), use_container_width=True)
+[311|Normal] 
+[312|Normal] 📄 File: pages/06_ML_Insights.py (Page 6: Machine Learning Insights Module)
+[313|Normal] """
+Page 6: ML Insights - Clustering, Risk Scoring, Prediction
+"""
+import os
+import streamlit as st
+import pandas as pd
+import numpy as np
+
+st.set_page_config(page_title="ML Insights | Healthcare Dashboard", page_icon="🤖", layout="wide")
+css_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "assets", "style.css")
+with open(css_path, "r", encoding="utf-8") as f:
+    st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+
+from analytics.ml_insights import run_clustering, get_cluster_summary, \
+    run_test_result_classification, compute_risk_scores
+from visualizations.charts import (
+    scatter_chart, bar_chart, donut_chart, gauge_chart,
+    confusion_matrix_chart, grouped_bar,
+)
+from visualizations.kpis import section_header, metric_row
+
+# Header
+st.markdown("""
+<div class="hero-banner">
+    <h1 style="color:#f1f5f9;font-size:28px;font-weight:800;margin:0 0 6px">
+        🤖 Machine Learning Insights
+    </h1>
+    <p style="color:#93c5fd;margin:0;font-size:14px">
+        Patient risk segmentation, predictive modelling &amp; anomaly detection
+    </p>
+</div>
+""", unsafe_allow_html=True)
+
+# Sidebar
+with st.sidebar:
+    st.markdown("### 🤖 ML Configuration")
+    n_clusters = st.slider("K-Means Clusters", 2, 8, 4)
+    run_rf     = st.checkbox("Run Random Forest (slower, ~5s)", value=True)
+
+# Tabs
+tab1, tab2, tab3 = st.tabs([
+    "🔵 Patient Clustering",
+    "🔮 Test Result Prediction",
+    "🚨 Risk Scoring",
+])
+
+
+# ── Tab 1: K-Means Clustering ──────────────────────────────────────────────────
+with tab1:
+    section_header("🔵 Patient Segmentation (K-Means)", f"{n_clusters} clusters")
+    with st.spinner("Running K-Means clustering..."):
+        try:
+            cluster_df  = run_clustering(n_clusters)
+            cluster_sum = get_cluster_summary(cluster_df)
+            cluster_ok  = True
+        except Exception as e:
+            st.error(f"Clustering error: {e}")
+            cluster_ok = False
+
+    if cluster_ok:
+        metric_row([
+            {"label": "Clusters",         "value": str(n_clusters),                                 "icon": "🔵"},
+            {"label": "Records Analysed", "value": f"{len(cluster_df):,}",                          "icon": "📋"},
+            {"label": "Avg Age",          "value": f"{cluster_df['age'].mean():.0f} yrs",           "icon": "🎂"},
+            {"label": "Avg Billing",      "value": f"Rs.{cluster_df['billing_amount'].mean():,.0f}", "icon": "💰"},
+        ])
+
+        st.markdown("<br>", unsafe_allow_html=True)
+
+        col1, col2 = st.columns([1.5, 1])
+        with col1:
+            fig = scatter_chart(
+                cluster_df.sample(min(3000, len(cluster_df)), random_state=42),
+                x="pca_x", y="pca_y",
+                color="cluster_label",
+                title="Patient Segments (PCA 2-D Projection)",
+                hover_data=["age", "billing_amount", "medical_condition"],
+            )
+            st.plotly_chart(fig, use_container_width=True)
+        with col2:
+            fig = donut_chart(
+                cluster_df.groupby("cluster_label").size().reset_index(name="count"),
+                names="cluster_label", values="count",
+                title="Cluster Size Distribution",
+            )
+            st.plotly_chart(fig, use_container_width=True)
+
+        st.markdown("#### 📊 Cluster Profiles")
+        st.dataframe(
+            cluster_sum.rename(columns={
+                "cluster_label": "Segment",
+                "patients":      "Patients",
+                "avg_age":       "Avg Age",
+                "avg_billing":   "Avg Billing",
+                "avg_los":       "Avg LOS",
+            }).style.format({
+                "Avg Age":     "{:.0f}",
+                "Avg Billing": "Rs.{:,.0f}",
+                "Avg LOS":     "{:.1f}",
+            }).background_gradient(subset=["Avg Billing"], cmap="Blues"),
+            use_container_width=True,
+        )
+
+        col3, col4 = st.columns(2)
+        with col3:
+            fig = bar_chart(
+                cluster_sum, x="cluster_label", y="avg_billing",
+                title="Avg Billing per Cluster",
+                color_discrete_sequence=["#2563EB"],
+            )
+            st.plotly_chart(fig, use_container_width=True)
+        with col4:
+            fig = bar_chart(
+                cluster_sum, x="cluster_label", y="avg_los",
+                title="Avg Length of Stay per Cluster",
+                color_discrete_sequence=["#EF4444"],
+            )
+            st.plotly_chart(fig, use_container_width=True)
+
+        cond_cluster = (
+            cluster_df.groupby(["cluster_label", "medical_condition"])
+            .size().reset_index(name="count")
+            .sort_values("count", ascending=False)
+        )
+        st.markdown("#### 🦠 Medical Conditions per Cluster")
+        fig = grouped_bar(
+            cond_cluster, x="cluster_label", y="count", color="medical_condition",
+            title="Medical Condition Distribution per Cluster",
+            barmode="stack",
+        )
+        st.plotly_chart(fig, use_container_width=True)
+
+        st.download_button(
+            "⬇️ Download Cluster Data",
+            cluster_df.drop(columns=["pca_x", "pca_y"]).to_csv(index=False),
+            "patient_clusters.csv", "text/csv",
+        )
+
+
+# ── Tab 2: Test Result Prediction ─────────────────────────────────────────────
+with tab2:
+    section_header("🔮 Test Result Prediction (Random Forest)",
+                   "Predicts Normal / Abnormal / Inconclusive from patient features")
+
+    if not run_rf:
+        st.info("Enable 'Run Random Forest' in the sidebar to see predictions.")
+    else:
+        with st.spinner("Training Random Forest classifier... (~5 seconds)"):
+            try:
+                rf_result = run_test_result_classification()
+                rf_ok     = True
+            except Exception as e:
+                st.error(f"ML error: {e}")
+                rf_ok = False
+
+        if rf_ok:
+            acc = rf_result["accuracy"]
+            fi  = rf_result["feature_importance"]
+
+            col5, col6 = st.columns([1, 2])
+            with col5:
+                fig = gauge_chart(acc, title="Model Accuracy", max_val=100)
+                st.plotly_chart(fig, use_container_width=True)
+                st.markdown("""
+                <div style="text-align:center;color:#94a3b8;font-size:12px;margin-top:8px">
+                    Algorithm: Random Forest (100 trees)<br>
+                    Test split: 20% &middot; Random state: 42
+                </div>
+                """, unsafe_allow_html=True)
+
+            with col6:
+                report = rf_result["report"]
+                classes = ["Normal", "Abnormal", "Inconclusive"]
+                report_rows = []
+                for cls in classes:
+                    if cls in report:
+                        r = report[cls]
+                        report_rows.append({
+                            "Class":     cls,
+                            "Precision": f"{r['precision']:.2%}",
+                            "Recall":    f"{r['recall']:.2%}",
+                            "F1-Score":  f"{r['f1-score']:.2%}",
+                            "Support":   int(r["support"]),
+                        })
+                st.markdown("#### 📊 Classification Report")
+                st.dataframe(pd.DataFrame(report_rows), use_container_width=True)
+
+            col7, col8 = st.columns(2)
+            with col7:
+                fig = confusion_matrix_chart(
+                    rf_result["confusion_matrix"],
+                    rf_result["labels"],
+                    "Confusion Matrix",
+                )
+                st.plotly_chart(fig, use_container_width=True)
+            with col8:
+                fig = bar_chart(
+                    fi, x="importance", y="feature",
+                    orientation="h",
+                    title="Feature Importance",
+                    color_discrete_sequence=["#10B981"],
+                )
+                st.plotly_chart(fig, use_container_width=True)
+
+            top_feat = fi.iloc[0]["feature"].replace("_enc", "").replace("_", " ").title()
+            st.info(f"""
+            **Model Interpretation:**
+            - Accuracy: **{acc:.1f}%** on held-out test set (20%)
+            - Most predictive feature: **{top_feat}**
+            - Billing amount, length of stay, and medical condition are the strongest predictors
+              for distinguishing Normal, Abnormal, and Inconclusive test outcomes.
+            """)
+
+
+# ── Tab 3: Risk Scoring ───────────────────────────────────────────────────────
+with tab3:
+    section_header("🚨 Patient Risk Scoring",
+                   "Composite risk score (0-100) based on age, billing, LOS, test results, and admission type")
+
+    with st.spinner("Computing risk scores..."):
+        try:
+            risk_df = compute_risk_scores()
+            risk_ok = True
+        except Exception as e:
+            st.error(f"Risk scoring error: {e}")
+            risk_ok = False
+
+    if risk_ok:
+        n_high = (risk_df["risk_tier"] == "High Risk").sum()
+        n_mod  = (risk_df["risk_tier"] == "Moderate Risk").sum()
+        n_low  = (risk_df["risk_tier"] == "Low Risk").sum()
+
+        metric_row([
+            {"label": "High Risk Patients",     "value": f"{n_high:,}",
+             "delta": "needs attention", "delta_color": "red",   "icon": "🔴"},
+            {"label": "Moderate Risk Patients", "value": f"{n_mod:,}",
+             "delta": "monitor closely", "delta_color": "red",   "icon": "🟡"},
+            {"label": "Low Risk Patients",      "value": f"{n_low:,}",
+             "delta": "routine care",   "delta_color": "green",  "icon": "🟢"},
+            {"label": "Avg Risk Score",         "value": f"{risk_df['risk_score'].mean():.1f}",
+             "icon": "📊"},
+        ])
+
+        st.markdown("<br>", unsafe_allow_html=True)
+
+        col9, col10 = st.columns(2)
+        with col9:
+            tier_counts = risk_df.groupby("risk_tier").size().reset_index(name="count")
+            fig = donut_chart(tier_counts, names="risk_tier", values="count",
+                              title="Risk Tier Distribution")
+            st.plotly_chart(fig, use_container_width=True)
+        with col10:
+            fig = scatter_chart(
+                risk_df.sample(min(2000, len(risk_df)), random_state=1),
+                x="age", y="risk_score",
+                color="risk_tier",
+                size="billing_amount",
+                title="Risk Score vs Age (bubble = billing amount)",
+                hover_data=["medical_condition", "admission_type"],
+            )
+            st.plotly_chart(fig, use_container_width=True)
+
+        risk_cond = (
+            risk_df.groupby("medical_condition")["risk_score"]
+            .mean().reset_index()
+            .sort_values("risk_score", ascending=True)
+            .rename(columns={"risk_score": "avg_risk_score"})
+        )
+        fig = bar_chart(
+            risk_cond, x="avg_risk_score", y="medical_condition",
+            orientation="h",
+            title="Average Risk Score by Medical Condition",
+            color_discrete_sequence=["#EF4444"],
+        )
+        st.plotly_chart(fig, use_container_width=True)
+
+        st.markdown("#### 🔴 High-Risk Patient Records")
+        high_risk = risk_df[risk_df["risk_tier"] == "High Risk"].sort_values(
+            "risk_score", ascending=False
+        ).head(100)
+
+        st.dataframe(
+            high_risk.style.format({
+                "billing_amount": "Rs.{:,.0f}",
+                "risk_score":     "{:.1f}",
+                "length_of_stay": "{:.0f}",
+            }).background_gradient(subset=["risk_score"], cmap="Reds"),
+            use_container_width=True, height=300,
+        )
+
+        st.download_button(
+            "⬇️ Download Risk Scores",
+            risk_df.to_csv(index=False),
+            "patient_risk_scores.csv",
+            "text/csv",
+        )
+[314|Normal] 
+[315|Normal] 📄 File: app.py (Main Application Entry Point (app.py))
+[316|Normal] """
+Healthcare Data Analysis & Visualization Dashboard
+Entry point - run with: streamlit run app.py
+"""
+import os
+import streamlit as st
+
+# Page config (MUST be first Streamlit call)
+st.set_page_config(
+    page_title = "Healthcare Analytics Dashboard",
+    page_icon  = "+",
+    layout     = "wide",
+    initial_sidebar_state = "expanded",
+    menu_items = {
+        "Get Help": None,
+        "Report a bug": None,
+        "About": "Healthcare Data Analysis Dashboard - MCA Project by Anjali Kumari",
+    },
+)
+
+# Inject global CSS
+css_path = os.path.join(os.path.dirname(__file__), "assets", "style.css")
+with open(css_path, "r", encoding="utf-8") as f:
+    st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+
+# DB connection check
+from database.connection import test_connection, query_df
+
+db_ok = test_connection()
+
+# Sidebar
+with st.sidebar:
+    st.markdown("""
+    <div style="text-align:center;padding:20px 0 10px">
+        <div style="font-size:48px">+</div>
+        <h2 style="color:#f1f5f9;margin:8px 0 2px;font-size:18px">Healthcare Analytics</h2>
+        <p style="color:#64748b;font-size:12px;margin:0">Dashboard v2.0</p>
+    </div>
+    """, unsafe_allow_html=True)
+
+    st.markdown("---")
+
+    if db_ok:
+        st.success("Database Connected")
+        try:
+            count = query_df("SELECT COUNT(*) AS c FROM healthcare_records").iloc[0]["c"]
+            st.markdown(f"""
+            <div style="background:#0f172a;border:1px solid #334155;
+                        border-radius:10px;padding:12px;margin:8px 0">
+                <div style="color:#64748b;font-size:11px;text-transform:uppercase;
+                            letter-spacing:1px">Dataset Size</div>
+                <div style="color:#60a5fa;font-size:22px;font-weight:700">{count:,}</div>
+                <div style="color:#64748b;font-size:11px">patient records</div>
+            </div>
+            """, unsafe_allow_html=True)
+        except Exception:
+            pass
+    else:
+        st.error("Database Not Connected")
+        st.markdown("""
+        **Setup Required:**
+        1. Run: `python database/loader.py`
+        """)
+
+    st.markdown("---")
+    st.markdown("""
+    <div style="color:#64748b;font-size:11px;text-align:center">
+        <strong style="color:#94a3b8">Dataset:</strong> Kaggle Healthcare Dataset<br>
+        <strong style="color:#94a3b8">By:</strong> prasad22 - CC0 Public Domain<br><br>
+        <strong style="color:#94a3b8">Project By:</strong> Anjali Kumari<br>
+        <strong style="color:#94a3b8">Guide:</strong> Divakar Purohit<br>
+        <strong style="color:#94a3b8">MCA, Andhra University</strong>
+    </div>
+    """, unsafe_allow_html=True)
+
+# Home page
+st.markdown("""
+<div class="hero-banner">
+    <h1 style="color:#f1f5f9;font-size:32px;font-weight:800;margin:0 0 8px">
+        Healthcare Data Analysis Dashboard
+    </h1>
+    <p style="color:#93c5fd;font-size:16px;margin:0">
+        Comprehensive analytics platform for patient demographics, disease trends,
+        hospital operations, financial insights &amp; ML-powered risk assessment
+    </p>
+</div>
+""", unsafe_allow_html=True)
+
+# Navigation cards
+st.markdown("### Dashboard Pages")
+st.markdown("Use the **sidebar** to navigate between pages, or click the cards below:")
+
+col1, col2, col3 = st.columns(3)
+
+pages = [
+    ("[Chart]",  "01 - Overview",             "Executive KPIs, trends, and key highlights"),
+    ("[People]", "02 - Patient Demographics", "Age, gender, blood type & insurance analysis"),
+    ("[Virus]",  "03 - Disease Analysis",     "Conditions, medications & test result trends"),
+    ("[Hotel]",  "04 - Hospital Operations",  "LOS, admission types & hospital performance"),
+    ("[Money]",  "05 - Financial Analysis",   "Revenue, billing distribution & payer mix"),
+    ("[Robot]",  "06 - ML Insights",          "Clustering, risk scoring & predictive models"),
+]
+
+for i, (icon, name, desc) in enumerate(pages):
+    col = [col1, col2, col3][i % 3]
+    with col:
+        st.markdown(f"""
+        <div style="
+            background:linear-gradient(135deg,#1e293b,#0f172a);
+            border:1px solid #334155;border-radius:14px;
+            padding:20px;margin-bottom:16px;
+            box-shadow:0 4px 16px rgba(0,0,0,0.3);
+        ">
+            <h4 style="color:#60a5fa;margin:0 0 6px;font-size:15px">{name}</h4>
+            <p style="color:#64748b;font-size:12px;margin:0">{desc}</p>
+        </div>
+        """, unsafe_allow_html=True)
+
+# Quick start guide
+st.markdown("---")
+with st.expander("Quick Start Guide", expanded=not db_ok):
+    st.markdown("""
+    ### Setup Instructions
+
+    **Step 1 - Install dependencies:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+    **Step 2 - Load dataset:**
+    ```bash
+    python database/loader.py
+    ```
+    This auto-generates 10,000 synthetic records if no CSV is present.
+
+    **Step 3 - Launch dashboard:**
+    ```bash
+    streamlit run app.py
+    ```
+
+    ### Dataset Schema
+    The Kaggle dataset (`prasad22/healthcare-dataset`) includes:
+    - **Patient**: Name, Age, Gender, Blood Type
+    - **Clinical**: Medical Condition, Medication, Test Results
+    - **Administrative**: Hospital, Doctor, Room Number, Admission Type
+    - **Financial**: Billing Amount, Insurance Provider
+    - **Temporal**: Date of Admission, Discharge Date (Length of Stay computed)
+    """)
+
+# Footer
+st.markdown("---")
+st.markdown("""
+<div style="text-align:center;color:#475569;font-size:12px;padding:12px 0">
+    Healthcare Data Analysis &amp; Visualization Dashboard |
+    MCA Project - Anjali Kumari (A24CA1895) |
+    Guide: Divakar Purohit, Sr. Data Analyst, Accenture
+</div>
+""", unsafe_allow_html=True)
+[317|Normal] 
+[318|Normal] 📄 File: database/seed_data.py (Database Seed & Data Generation Pipeline)
+[319|Normal] """
+Synthetic data generator.
+Populates healthcare_db with realistic fake data using Faker + NumPy.
+
+Usage:
+    python database/seed_data.py
+"""
+import sys
+import os
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+import random
+from datetime import date, timedelta, datetime
+
+import numpy as np
+from faker import Faker
+from sqlalchemy import create_engine, text
+
+from config.settings import DATABASE_URL
+
+fake = Faker("en_IN")
+rng  = np.random.default_rng(42)
+
+# ── Constants ─────────────────────────────────────────────────────────────────
+DEPARTMENTS = [
+    ("Cardiology",         "Dr. Rajesh Kumar",   3, 40),
+    ("Neurology",          "Dr. Priya Sharma",   4, 35),
+    ("Orthopedics",        "Dr. Amit Singh",     2, 50),
+    ("Pediatrics",         "Dr. Meena Verma",    1, 60),
+    ("Oncology",           "Dr. Suresh Patel",   5, 30),
+    ("Emergency Medicine", "Dr. Kavya Reddy",    0, 80),
+    ("Gynecology",         "Dr. Sunita Das",     2, 45),
+    ("Gastroenterology",   "Dr. Vikram Nair",    3, 30),
+    ("Pulmonology",        "Dr. Ananya Iyer",    4, 35),
+    ("Endocrinology",      "Dr. Ravi Menon",     3, 25),
+]
+
+SPECIALIZATIONS = [
+    "Cardiologist", "Neurologist", "Orthopedic Surgeon", "Pediatrician",
+    "Oncologist", "Emergency Physician", "Gynecologist", "Gastroenterologist",
+    "Pulmonologist", "Endocrinologist", "General Surgeon", "Radiologist",
+]
+
+CONDITIONS = [
+    ("I21", "Acute Myocardial Infarction"),
+    ("I10", "Essential Hypertension"),
+    ("E11", "Type 2 Diabetes Mellitus"),
+    ("J18", "Community-Acquired Pneumonia"),
+    ("N18", "Chronic Kidney Disease"),
+    ("C34", "Malignant Neoplasm of Bronchus"),
+    ("I63", "Cerebral Infarction"),
+    ("K92", "Gastrointestinal Hemorrhage"),
+    ("J44", "Chronic Obstructive Pulmonary Disease"),
+    ("M54", "Dorsalgia / Back Pain"),
+    ("F32", "Major Depressive Disorder"),
+    ("Z38", "Liveborn Infant"),
+    ("S72", "Fracture of Femur"),
+    ("I50", "Heart Failure"),
+    ("A09", "Gastroenteritis"),
+    ("K80", "Cholelithiasis"),
+    ("G40", "Epilepsy"),
+    ("R51", "Headache Disorders"),
+    ("E78", "Disorders of Lipoprotein Metabolism"),
+    ("I48", "Atrial Fibrillation"),
+]
+
+TREATMENTS = [
+    ("Medication",  ["Metformin", "Atorvastatin", "Lisinopril", "Amlodipine",
+                     "Metoprolol", "Aspirin", "Omeprazole", "Insulin Glargine"]),
+    ("Surgery",     ["Angioplasty", "Appendectomy", "Hip Replacement",
+                     "Laparoscopic Cholecystectomy", "CABG", "Knee Arthroplasty"]),
+    ("Therapy",     ["Physiotherapy", "Radiation Therapy", "Dialysis",
+                     "Chemotherapy", "Respiratory Therapy"]),
+    ("Diagnostic",  ["CT Scan", "MRI", "ECG", "Echocardiogram",
+                     "Endoscopy", "Colonoscopy", "Biopsy"]),
+]
+
+CITIES = [
+    "Bengaluru", "Hyderabad", "Chennai", "Mumbai", "Delhi",
+    "Pune", "Kolkata", "Ahmedabad", "Jaipur", "Lucknow",
+    "Coimbatore", "Visakhapatnam", "Bhopal", "Kochi", "Nagpur",
+]
+
+STATES = {
+    "Bengaluru": "Karnataka",    "Hyderabad": "Telangana",
+    "Chennai":   "Tamil Nadu",   "Mumbai":    "Maharashtra",
+    "Delhi":     "Delhi",        "Pune":      "Maharashtra",
+    "Kolkata":   "West Bengal",  "Ahmedabad": "Gujarat",
+    "Jaipur":    "Rajasthan",    "Lucknow":   "Uttar Pradesh",
+    "Coimbatore":"Tamil Nadu",   "Visakhapatnam": "Andhra Pradesh",
+    "Bhopal":    "Madhya Pradesh","Kochi":    "Kerala",
+    "Nagpur":    "Maharashtra",
+}
+
+BLOOD_GROUPS  = ["A+", "A-", "B+", "B-", "AB+", "AB-", "O+", "O-"]
+INS_TYPES     = ["Private", "Medicare", "Medicaid", "Uninsured", "Other"]
+ADM_TYPES     = ["Emergency", "Elective", "Urgent"]
+DISC_STATUSES = ["Recovered", "Referred", "Deceased", "Against Advice", "Transferred"]
+SEVERITIES    = ["Mild", "Moderate", "Severe", "Critical"]
+
+
+def create_schema(engine):
+    print("Creating schema...")
+    schema_path = os.path.join(os.path.dirname(__file__), "schema.sql")
+    with open(schema_path, "r") as f:
+        sql = f.read()
+    with engine.connect() as conn:
+        for statement in sql.split(";"):
+            stmt = statement.strip()
+            if stmt:
+                try:
+                    conn.execute(text(stmt))
+                except Exception as e:
+                    if "already exists" not in str(e).lower():
+                        print(f"  Warning: {e}")
+        conn.commit()
+    print("  Schema ready.")
+
+
+def seed_departments(conn):
+    print("Seeding departments...")
+    dept_ids = []
+    for name, head, floor, beds in DEPARTMENTS:
+        r = conn.execute(text(
+            "INSERT INTO departments (name, head_doctor, floor_number, bed_capacity) "
+            "VALUES (:n,:h,:f,:b)"
+        ), {"n": name, "h": head, "f": floor, "b": beds})
+        dept_ids.append(r.lastrowid)
+    conn.commit()
+    return dept_ids
+
+
+def seed_doctors(conn, dept_ids, n=60):
+    print(f"Seeding {n} doctors...")
+    doctor_ids = []
+    for _ in range(n):
+        dept_id = random.choice(dept_ids)
+        r = conn.execute(text(
+            "INSERT INTO doctors (full_name, specialization, department_id, experience_yrs, phone, email) "
+            "VALUES (:fn,:sp,:di,:ex,:ph,:em)"
+        ), {
+            "fn": fake.name(),
+            "sp": random.choice(SPECIALIZATIONS),
+            "di": dept_id,
+            "ex": random.randint(1, 30),
+            "ph": fake.phone_number()[:20],
+            "em": fake.email(),
+        })
+        doctor_ids.append(r.lastrowid)
+    conn.commit()
+    return doctor_ids
+
+
+def seed_patients(conn, n=5000):
+    print(f"Seeding {n} patients...")
+    patient_ids = []
+    for _ in range(n):
+        city  = random.choice(CITIES)
+        state = STATES[city]
+        dob   = fake.date_of_birth(minimum_age=1, maximum_age=95)
+        r = conn.execute(text(
+            "INSERT INTO patients "
+            "(full_name, date_of_birth, gender, blood_group, phone, email, "
+            " address, city, state, zip_code, insurance_type) "
+            "VALUES (:fn,:dob,:g,:bg,:ph,:em,:ad,:ci,:st,:zp,:it)"
+        ), {
+            "fn":  fake.name(),
+            "dob": dob,
+            "g":   random.choice(["Male", "Female", "Other"]),
+            "bg":  random.choice(BLOOD_GROUPS),
+            "ph":  fake.phone_number()[:20],
+            "em":  fake.email(),
+            "ad":  fake.street_address(),
+            "ci":  city,
+            "st":  state,
+            "zp":  str(random.randint(100000, 999999)),
+            "it":  random.choices(INS_TYPES, weights=[40,25,20,10,5])[0],
+        })
+        patient_ids.append(r.lastrowid)
+    conn.commit()
+    return patient_ids
+
+
+def seed_admissions(conn, patient_ids, doctor_ids, dept_ids, n=8000):
+    print(f"Seeding {n} admissions...")
+    admission_ids = []
+    base_date = date(2022, 1, 1)
+    span_days = (date(2025, 12, 31) - base_date).days
+
+    for _ in range(n):
+        adm_date = base_date + timedelta(days=random.randint(0, span_days))
+        los       = int(rng.integers(1, 30))
+        disc_date = adm_date + timedelta(days=los)
+        if disc_date > date.today():
+            disc_date = date.today()
+
+        r = conn.execute(text(
+            "INSERT INTO admissions "
+            "(patient_id, doctor_id, department_id, admission_date, discharge_date, "
+            " admission_type, discharge_status, readmission) "
+            "VALUES (:pi,:di,:dpi,:ad,:dd,:at,:ds,:re)"
+        ), {
+            "pi":  random.choice(patient_ids),
+            "di":  random.choice(doctor_ids),
+            "dpi": random.choice(dept_ids),
+            "ad":  adm_date,
+            "dd":  disc_date,
+            "at":  random.choices(ADM_TYPES, weights=[30, 50, 20])[0],
+            "ds":  random.choices(DISC_STATUSES, weights=[70, 10, 3, 5, 12])[0],
+            "re":  1 if random.random() < 0.12 else 0,
+        })
+        admission_ids.append(r.lastrowid)
+    conn.commit()
+    return admission_ids
+
+
+def seed_diagnoses(conn, admission_ids):
+    print("Seeding diagnoses...")
+    rows = []
+    for adm_id in admission_ids:
+        # Primary diagnosis
+        icd, cond = random.choice(CONDITIONS)
+        rows.append({
+            "ai": adm_id, "ic": icd, "cn": cond,
+            "dt": "Primary", "sv": random.choices(SEVERITIES, weights=[30,40,20,10])[0]
+        })
+        # Possibly a secondary
+        if random.random() < 0.45:
+            icd2, cond2 = random.choice(CONDITIONS)
+            rows.append({
+                "ai": adm_id, "ic": icd2, "cn": cond2,
+                "dt": "Secondary", "sv": random.choices(SEVERITIES, weights=[40,35,20,5])[0]
+            })
+    with conn.begin_nested():
+        for row in rows:
+            conn.execute(text(
+                "INSERT INTO diagnoses (admission_id, icd10_code, condition_name, diagnosis_type, severity) "
+                "VALUES (:ai,:ic,:cn,:dt,:sv)"
+            ), row)
+    conn.commit()
+    print(f"  {len(rows)} diagnoses seeded.")
+
+
+def seed_treatments(conn, admission_ids):
+    print("Seeding treatments...")
+    rows = []
+    for adm_id in admission_ids:
+        n_treatments = random.randint(1, 3)
+        for _ in range(n_treatments):
+            t_type, items = random.choice(TREATMENTS)
+            rows.append({
+                "ai": adm_id,
+                "tt": t_type,
+                "tn": random.choice(items),
+                "oc": random.choices(["Successful","Partial","Failed","Ongoing"],
+                                     weights=[65, 20, 5, 10])[0],
+            })
+    with conn.begin_nested():
+        for row in rows:
+            conn.execute(text(
+                "INSERT INTO treatments (admission_id, treatment_type, treatment_name, outcome) "
+                "VALUES (:ai,:tt,:tn,:oc)"
+            ), row)
+    conn.commit()
+    print(f"  {len(rows)} treatment records seeded.")
+
+
+def seed_billing(conn, admission_ids):
+    print("Seeding billing records...")
+    rows = []
+    for adm_id in admission_ids:
+        total    = round(random.uniform(5000, 500000), 2)
+        ins_pct  = random.uniform(0.0, 0.9)
+        ins_cov  = round(total * ins_pct, 2)
+        pat_paid = round(min(total - ins_cov, random.uniform(0, total - ins_cov)), 2)
+        rows.append({
+            "ai": adm_id,
+            "tc": total,
+            "ic": ins_cov,
+            "pp": pat_paid,
+            "bs": random.choices(
+                ["Paid","Partial","Pending","Written Off"],
+                weights=[40,30,25,5]
+            )[0],
+            "bd": fake.date_between(start_date="-3y", end_date="today"),
+        })
+    with conn.begin_nested():
+        for row in rows:
+            conn.execute(text(
+                "INSERT INTO billing (admission_id, total_charges, insurance_covered, "
+                "patient_paid, billing_status, billing_date) "
+                "VALUES (:ai,:tc,:ic,:pp,:bs,:bd)"
+            ), row)
+    conn.commit()
+    print(f"  {len(rows)} billing records seeded.")
+
+
+def seed_vitals(conn, admission_ids):
+    print("Seeding vital signs...")
+    rows = []
+    sample_adm = random.sample(admission_ids, min(2000, len(admission_ids)))
+    for adm_id in sample_adm:
+        for day_offset in range(random.randint(1, 5)):
+            rows.append({
+                "ai":  adm_id,
+                "ra":  datetime.now() - timedelta(days=random.randint(0, 900),
+                                                   hours=random.randint(0,23)),
+                "sbp": random.randint(90, 180),
+                "dbp": random.randint(60, 110),
+                "hr":  random.randint(55, 120),
+                "tmp": round(random.uniform(36.0, 39.5), 1),
+                "oxy": round(random.uniform(92.0, 100.0), 1),
+                "wt":  round(random.uniform(40.0, 120.0), 1),
+            })
+    with conn.begin_nested():
+        for row in rows:
+            conn.execute(text(
+                "INSERT INTO vital_signs "
+                "(admission_id, recorded_at, systolic_bp, diastolic_bp, "
+                " heart_rate, temperature, oxygen_sat, weight_kg) "
+                "VALUES (:ai,:ra,:sbp,:dbp,:hr,:tmp,:oxy,:wt)"
+            ), row)
+    conn.commit()
+    print(f"  {len(rows)} vital sign records seeded.")
+
+
+def main():
+    print("=" * 60)
+    print("  Healthcare Dashboard — Database Seeder")
+    print("=" * 60)
+
+    engine = create_engine(DATABASE_URL, echo=False)
+
+    try:
+        with engine.connect() as conn:
+            conn.execute(text("SELECT 1"))
+        print("✅ Database connection successful.\n")
+    except Exception as e:
+        print(f"❌ Cannot connect to MySQL: {e}")
+        print("   Make sure MySQL is running and credentials in .env are correct.")
+        sys.exit(1)
+
+    create_schema(engine)
+
+    with engine.connect() as conn:
+        # Check if already seeded
+        count = conn.execute(text("SELECT COUNT(*) FROM patients")).scalar()
+        if count > 0:
+            print(f"\n⚠️  Database already has {count} patients.")
+            ans = input("   Re-seed? This will DROP and recreate all tables. [y/N]: ")
+            if ans.strip().lower() != "y":
+                print("Aborted. No changes made.")
+                return
+            # Drop and recreate
+            tables = ["vital_signs","billing","treatments","diagnoses",
+                      "admissions","patients","doctors","departments"]
+            for t in tables:
+                conn.execute(text(f"DROP TABLE IF EXISTS {t}"))
+            conn.commit()
+            create_schema(engine)
+
+        dept_ids      = seed_departments(conn)
+        doctor_ids    = seed_doctors(conn, dept_ids, n=60)
+        patient_ids   = seed_patients(conn, n=5000)
+        admission_ids = seed_admissions(conn, patient_ids, doctor_ids, dept_ids, n=8000)
+        seed_diagnoses(conn, admission_ids)
+        seed_treatments(conn, admission_ids)
+        seed_billing(conn, admission_ids)
+        seed_vitals(conn, admission_ids)
+
+    print("\n✅ Database seeding complete!")
+    print(f"   Patients:   5,000")
+    print(f"   Admissions: 8,000")
+    print(f"   Diagnoses:  ~12,000")
+    print(f"   Treatments: ~18,000")
+    print(f"   Billing:    8,000")
+    print(f"   Vitals:     ~8,000")
+
+
+if __name__ == "__main__":
+    main()
+[320|Normal] 
+[321|Normal] 📄 File: analytics/overview.py (Overview Analytics Engine)
+[322|Normal] """
+Overview analytics — SQLite-compatible queries.
+"""
+import pandas as pd
+from database.connection import query_df
+
+
+def get_kpis() -> dict:
+    df = query_df("""
+        SELECT
+            COUNT(*)                                        AS total_records,
+            COUNT(DISTINCT patient_name)                    AS unique_patients,
+            COUNT(DISTINCT hospital)                        AS total_hospitals,
+            COUNT(DISTINCT doctor)                          AS total_doctors,
+            ROUND(AVG(billing_amount), 2)                   AS avg_billing,
+            ROUND(SUM(billing_amount), 2)                   AS total_revenue,
+            ROUND(AVG(length_of_stay), 2)                   AS avg_los,
+            SUM(CASE WHEN test_results='Abnormal' THEN 1 ELSE 0 END) AS abnormal_tests,
+            COUNT(DISTINCT medical_condition)               AS unique_conditions,
+            ROUND(100.0 * SUM(CASE WHEN test_results='Abnormal' THEN 1 ELSE 0 END)
+                  / COUNT(*), 2)                            AS abnormal_rate
+        FROM healthcare_records
+    """)
+    return df.iloc[0].to_dict()
+
+
+def get_monthly_trend() -> pd.DataFrame:
+    return query_df("""
+        SELECT
+            SUBSTR(date_of_admission, 1, 7)     AS month,
+            COUNT(*)                            AS admissions,
+            ROUND(SUM(billing_amount), 2)       AS revenue,
+            ROUND(AVG(billing_amount), 2)       AS avg_billing,
+            ROUND(AVG(length_of_stay), 2)       AS avg_los
+        FROM healthcare_records
+        WHERE date_of_admission IS NOT NULL
+        GROUP BY month
+        ORDER BY month
+    """)
+
+
+def get_yearly_trend() -> pd.DataFrame:
+    return query_df("""
+        SELECT
+            SUBSTR(date_of_admission, 1, 4)             AS year,
+            COUNT(*)                                    AS admissions,
+            ROUND(SUM(billing_amount), 2)               AS revenue,
+            COUNT(DISTINCT medical_condition)           AS conditions_seen
+        FROM healthcare_records
+        WHERE date_of_admission IS NOT NULL
+        GROUP BY year
+        ORDER BY year
+    """)
+
+
+def get_condition_summary() -> pd.DataFrame:
+    return query_df("""
+        SELECT
+            medical_condition,
+            COUNT(*)                            AS count,
+            ROUND(AVG(billing_amount), 2)       AS avg_billing,
+            ROUND(AVG(length_of_stay), 2)       AS avg_los,
+            SUM(CASE WHEN test_results='Abnormal' THEN 1 ELSE 0 END) AS abnormal
+        FROM healthcare_records
+        GROUP BY medical_condition
+        ORDER BY count DESC
+    """)
+
+
+def get_recent_records(n: int = 50) -> pd.DataFrame:
+    return query_df(f"""
+        SELECT
+            patient_name, age, gender, medical_condition,
+            admission_type, date_of_admission, discharge_date,
+            length_of_stay, billing_amount, test_results, hospital
+        FROM healthcare_records
+        ORDER BY date_of_admission DESC
+        LIMIT {n}
+    """)
+[323|Normal] 
+[324|Normal] 📄 File: analytics/patient_analytics.py (Patient Analytics Engine)
+[325|Normal] """
+Patient demographics analytics queries — SQLite-compatible.
+"""
+import pandas as pd
+from database.connection import query_df
+
+
+def get_age_distribution() -> pd.DataFrame:
+    return query_df("""
+        SELECT
+            age_group,
+            COUNT(*) AS count,
+            ROUND(100.0 * COUNT(*) / (SELECT COUNT(*) FROM healthcare_records), 2) AS pct
+        FROM healthcare_records
+        GROUP BY age_group
+        ORDER BY CASE age_group
+            WHEN 'Under 18' THEN 1
+            WHEN '18-29'    THEN 2
+            WHEN '30-44'    THEN 3
+            WHEN '45-59'    THEN 4
+            WHEN '60-74'    THEN 5
+            WHEN '75+'      THEN 6
+            ELSE 7
+        END
+    """)
+
+
+def get_gender_breakdown() -> pd.DataFrame:
+    return query_df("""
+        SELECT
+            gender,
+            COUNT(*) AS count,
+            ROUND(AVG(age), 1) AS avg_age,
+            ROUND(AVG(billing_amount), 2) AS avg_billing,
+            ROUND(100.0 * COUNT(*) / (SELECT COUNT(*) FROM healthcare_records), 2) AS pct
+        FROM healthcare_records
+        GROUP BY gender
+    """)
+
+
+def get_blood_type_distribution() -> pd.DataFrame:
+    return query_df("""
+        SELECT blood_type, COUNT(*) AS count
+        FROM healthcare_records
+        WHERE blood_type IS NOT NULL
+        GROUP BY blood_type
+        ORDER BY count DESC
+    """)
+
+
+def get_insurance_breakdown() -> pd.DataFrame:
+    return query_df("""
+        SELECT
+            insurance_provider,
+            COUNT(*) AS patients,
+            ROUND(SUM(billing_amount), 2) AS total_billed,
+            ROUND(AVG(billing_amount), 2) AS avg_billed,
+            ROUND(100.0 * COUNT(*) / (SELECT COUNT(*) FROM healthcare_records), 2) AS pct
+        FROM healthcare_records
+        GROUP BY insurance_provider
+        ORDER BY patients DESC
+    """)
+
+
+def get_age_gender_heatmap() -> pd.DataFrame:
+    return query_df("""
+        SELECT
+            age_group,
+            gender,
+            COUNT(*) AS count
+        FROM healthcare_records
+        GROUP BY age_group, gender
+        ORDER BY CASE age_group
+            WHEN 'Under 18' THEN 1
+            WHEN '18-29'    THEN 2
+            WHEN '30-44'    THEN 3
+            WHEN '45-59'    THEN 4
+            WHEN '60-74'    THEN 5
+            WHEN '75+'      THEN 6
+            ELSE 7
+        END
+    """)
+
+
+def get_age_vs_billing() -> pd.DataFrame:
+    return query_df("""
+        SELECT age, billing_amount, medical_condition, gender
+        FROM healthcare_records
+        LIMIT 3000
+    """)
+
+
+def get_condition_by_gender() -> pd.DataFrame:
+    return query_df("""
+        SELECT
+            medical_condition,
+            gender,
+            COUNT(*) AS count
+        FROM healthcare_records
+        GROUP BY medical_condition, gender
+    """)
+[326|Normal] 
+[327|Normal] 📄 File: analytics/disease_analytics.py (Disease Analytics Engine)
+[328|Normal] """
+Disease analytics — SQLite-compatible queries.
+"""
+import pandas as pd
+from database.connection import query_df
+
+
+def get_top_conditions(limit: int = 10) -> pd.DataFrame:
+    return query_df(f"""
+        SELECT
+            medical_condition,
+            COUNT(*)                            AS total_cases,
+            ROUND(AVG(billing_amount), 2)       AS avg_billing,
+            ROUND(AVG(length_of_stay), 2)       AS avg_los,
+            SUM(CASE WHEN test_results='Abnormal'     THEN 1 ELSE 0 END) AS abnormal,
+            SUM(CASE WHEN test_results='Normal'       THEN 1 ELSE 0 END) AS normal,
+            SUM(CASE WHEN test_results='Inconclusive' THEN 1 ELSE 0 END) AS inconclusive,
+            ROUND(100.0 * SUM(CASE WHEN test_results='Abnormal' THEN 1 ELSE 0 END)
+                  / COUNT(*), 2)                AS abnormal_rate
+        FROM healthcare_records
+        GROUP BY medical_condition
+        ORDER BY total_cases DESC
+        LIMIT {limit}
+    """)
+
+
+def get_condition_trend() -> pd.DataFrame:
+    return query_df("""
+        SELECT
+            SUBSTR(date_of_admission, 1, 7) AS month,
+            medical_condition,
+            COUNT(*) AS cases
+        FROM healthcare_records
+        WHERE date_of_admission IS NOT NULL
+        GROUP BY month, medical_condition
+        ORDER BY month
+    """)
+
+
+def get_condition_by_age_group() -> pd.DataFrame:
+    return query_df("""
+        SELECT age_group, medical_condition, COUNT(*) AS count
+        FROM healthcare_records
+        GROUP BY age_group, medical_condition
+    """)
+
+
+def get_medication_distribution() -> pd.DataFrame:
+    return query_df("""
+        SELECT
+            medication,
+            COUNT(*) AS count,
+            ROUND(AVG(billing_amount), 2) AS avg_billing,
+            medical_condition
+        FROM healthcare_records
+        GROUP BY medication, medical_condition
+        ORDER BY count DESC
+    """)
+
+
+def get_medication_summary() -> pd.DataFrame:
+    return query_df("""
+        SELECT
+            medication,
+            COUNT(*) AS total_prescribed,
+            COUNT(DISTINCT medical_condition) AS conditions_treated,
+            ROUND(AVG(billing_amount), 2) AS avg_cost
+        FROM healthcare_records
+        GROUP BY medication
+        ORDER BY total_prescribed DESC
+    """)
+
+
+def get_test_results_by_condition() -> pd.DataFrame:
+    return query_df("""
+        SELECT medical_condition, test_results, COUNT(*) AS count
+        FROM healthcare_records
+        GROUP BY medical_condition, test_results
+        ORDER BY medical_condition, count DESC
+    """)
+
+
+def get_condition_severity_proxy() -> pd.DataFrame:
+    return query_df("""
+        SELECT
+            medical_condition,
+            ROUND(AVG(billing_amount), 2)   AS avg_billing,
+            ROUND(AVG(length_of_stay), 2)   AS avg_los,
+            COUNT(*)                        AS cases,
+            ROUND(AVG(age), 1)              AS avg_patient_age
+        FROM healthcare_records
+        GROUP BY medical_condition
+        ORDER BY avg_billing DESC
+    """)
+[329|Normal] 
+[330|Normal] 📄 File: analytics/hospital_analytics.py (Hospital Analytics Engine)
+[331|Normal] """
+Hospital operations analytics — SQLite-compatible queries.
+"""
+import pandas as pd
+from database.connection import query_df
+
+
+def get_hospital_performance() -> pd.DataFrame:
+    return query_df("""
+        SELECT
+            hospital,
+            COUNT(*)                            AS total_admissions,
+            ROUND(AVG(billing_amount), 2)       AS avg_billing,
+            ROUND(SUM(billing_amount), 2)       AS total_revenue,
+            ROUND(AVG(length_of_stay), 2)       AS avg_los,
+            COUNT(DISTINCT doctor)              AS doctors,
+            SUM(CASE WHEN test_results='Abnormal' THEN 1 ELSE 0 END) AS abnormal_cases,
+            ROUND(100.0 * SUM(CASE WHEN test_results='Abnormal' THEN 1 ELSE 0 END)
+                  / COUNT(*), 2)                AS abnormal_rate
+        FROM healthcare_records
+        GROUP BY hospital
+        ORDER BY total_admissions DESC
+    """)
+
+
+def get_admission_type_breakdown() -> pd.DataFrame:
+    return query_df("""
+        SELECT
+            admission_type,
+            COUNT(*) AS count,
+            ROUND(AVG(billing_amount), 2) AS avg_billing,
+            ROUND(AVG(length_of_stay), 2) AS avg_los,
+            ROUND(100.0 * COUNT(*) / (SELECT COUNT(*) FROM healthcare_records), 2) AS pct
+        FROM healthcare_records
+        GROUP BY admission_type
+    """)
+
+
+def get_los_distribution() -> pd.DataFrame:
+    return query_df("""
+        SELECT length_of_stay AS los, COUNT(*) AS count
+        FROM healthcare_records
+        WHERE length_of_stay IS NOT NULL
+          AND length_of_stay BETWEEN 1 AND 60
+        GROUP BY length_of_stay
+        ORDER BY length_of_stay
+    """)
+
+
+def get_los_by_condition() -> pd.DataFrame:
+    return query_df("""
+        SELECT
+            medical_condition,
+            ROUND(AVG(length_of_stay), 2) AS avg_los,
+            MIN(length_of_stay) AS min_los,
+            MAX(length_of_stay) AS max_los
+        FROM healthcare_records
+        WHERE length_of_stay IS NOT NULL
+        GROUP BY medical_condition
+        ORDER BY avg_los DESC
+    """)
+
+
+def get_doctor_performance() -> pd.DataFrame:
+    return query_df("""
+        SELECT
+            doctor,
+            COUNT(*)                            AS patients_seen,
+            ROUND(AVG(billing_amount), 2)       AS avg_billing,
+            ROUND(AVG(length_of_stay), 2)       AS avg_los,
+            COUNT(DISTINCT medical_condition)   AS conditions_treated,
+            COUNT(DISTINCT hospital)            AS hospitals_worked,
+            SUM(CASE WHEN test_results='Normal'   THEN 1 ELSE 0 END) AS normal_outcomes,
+            SUM(CASE WHEN test_results='Abnormal' THEN 1 ELSE 0 END) AS abnormal_outcomes
+        FROM healthcare_records
+        GROUP BY doctor
+        ORDER BY patients_seen DESC
+        LIMIT 50
+    """)
+
+
+def get_admission_type_by_condition() -> pd.DataFrame:
+    return query_df("""
+        SELECT medical_condition, admission_type, COUNT(*) AS count
+        FROM healthcare_records
+        GROUP BY medical_condition, admission_type
+    """)
+
+
+def get_weekly_admission_pattern() -> pd.DataFrame:
+    return query_df("""
+        SELECT
+            CASE CAST(strftime('%w', date_of_admission) AS INTEGER)
+                WHEN 0 THEN 'Sunday'
+                WHEN 1 THEN 'Monday'
+                WHEN 2 THEN 'Tuesday'
+                WHEN 3 THEN 'Wednesday'
+                WHEN 4 THEN 'Thursday'
+                WHEN 5 THEN 'Friday'
+                WHEN 6 THEN 'Saturday'
+            END AS day_name,
+            CAST(strftime('%w', date_of_admission) AS INTEGER) AS day_num,
+            COUNT(*) AS admissions
+        FROM healthcare_records
+        WHERE date_of_admission IS NOT NULL
+        GROUP BY day_num, day_name
+        ORDER BY day_num
+    """)
+
+
+def get_room_utilization() -> pd.DataFrame:
+    return query_df("""
+        SELECT
+            room_number,
+            COUNT(*) AS usage_count,
+            ROUND(AVG(billing_amount), 2) AS avg_billing
+        FROM healthcare_records
+        WHERE room_number IS NOT NULL AND room_number > 0
+        GROUP BY room_number
+        ORDER BY usage_count DESC
+        LIMIT 20
+    """)
+[332|Normal] 
+[333|Normal] 📄 File: analytics/financial_analytics.py (Financial Analytics Engine)
+[334|Normal] """
+Financial analytics — SQLite-compatible queries.
+"""
+import pandas as pd
+from database.connection import query_df
+
+
+def get_revenue_summary() -> dict:
+    df = query_df("""
+        SELECT
+            ROUND(SUM(billing_amount), 2)    AS total_revenue,
+            ROUND(AVG(billing_amount), 2)    AS avg_billing,
+            ROUND(MIN(billing_amount), 2)    AS min_billing,
+            ROUND(MAX(billing_amount), 2)    AS max_billing
+        FROM healthcare_records
+    """)
+    row = df.iloc[0].to_dict()
+    # Compute stddev manually in Python (SQLite has no STDDEV)
+    bills_df = query_df("SELECT billing_amount FROM healthcare_records WHERE billing_amount IS NOT NULL")
+    import numpy as np
+    row["stddev_billing"] = round(float(np.std(bills_df["billing_amount"])), 2)
+    return row
+
+
+def get_revenue_by_condition() -> pd.DataFrame:
+    return query_df("""
+        SELECT
+            medical_condition,
+            ROUND(SUM(billing_amount), 2)   AS total_revenue,
+            ROUND(AVG(billing_amount), 2)   AS avg_billing,
+            COUNT(*)                        AS cases
+        FROM healthcare_records
+        GROUP BY medical_condition
+        ORDER BY total_revenue DESC
+    """)
+
+
+def get_revenue_by_insurance() -> pd.DataFrame:
+    return query_df("""
+        SELECT
+            insurance_provider,
+            COUNT(*)                        AS patients,
+            ROUND(SUM(billing_amount), 2)   AS total_billed,
+            ROUND(AVG(billing_amount), 2)   AS avg_billed,
+            ROUND(MIN(billing_amount), 2)   AS min_billed,
+            ROUND(MAX(billing_amount), 2)   AS max_billed
+        FROM healthcare_records
+        GROUP BY insurance_provider
+        ORDER BY total_billed DESC
+    """)
+
+
+def get_revenue_by_admission_type() -> pd.DataFrame:
+    return query_df("""
+        SELECT
+            admission_type,
+            COUNT(*)                        AS cases,
+            ROUND(SUM(billing_amount), 2)   AS total_revenue,
+            ROUND(AVG(billing_amount), 2)   AS avg_revenue
+        FROM healthcare_records
+        GROUP BY admission_type
+        ORDER BY total_revenue DESC
+    """)
+
+
+def get_monthly_revenue_trend() -> pd.DataFrame:
+    return query_df("""
+        SELECT
+            SUBSTR(date_of_admission, 1, 7) AS month,
+            ROUND(SUM(billing_amount), 2)   AS revenue,
+            COUNT(*)                        AS admissions,
+            ROUND(AVG(billing_amount), 2)   AS avg_billing
+        FROM healthcare_records
+        WHERE date_of_admission IS NOT NULL
+        GROUP BY month
+        ORDER BY month
+    """)
+
+
+def get_billing_distribution() -> pd.DataFrame:
+    return query_df("""
+        SELECT billing_amount, medical_condition, insurance_provider
+        FROM healthcare_records
+        WHERE billing_amount IS NOT NULL
+        LIMIT 5000
+    """)
+
+
+def get_revenue_by_hospital() -> pd.DataFrame:
+    return query_df("""
+        SELECT
+            hospital,
+            COUNT(*)                        AS admissions,
+            ROUND(SUM(billing_amount), 2)   AS total_revenue,
+            ROUND(AVG(billing_amount), 2)   AS avg_billing
+        FROM healthcare_records
+        GROUP BY hospital
+        ORDER BY total_revenue DESC
+    """)
+
+
+def get_high_value_cases(threshold: float = 30000) -> pd.DataFrame:
+    return query_df(f"""
+        SELECT
+            patient_name, age, gender, medical_condition,
+            hospital, doctor, billing_amount, length_of_stay,
+            insurance_provider, admission_type, test_results
+        FROM healthcare_records
+        WHERE billing_amount >= {threshold}
+        ORDER BY billing_amount DESC
+        LIMIT 200
+    """)
+[335|Normal] 
+[336|Normal] 📄 File: analytics/ml_insights.py (Machine Learning Analytics Engine)
+[337|Normal] """
+ML-powered insights: clustering, risk scoring, test result prediction.
+Uses scikit-learn on data pulled from MySQL.
+"""
+import warnings
+warnings.filterwarnings("ignore")
+
+import pandas as pd
+import numpy as np
+from database.connection import query_df
+
+
+# ── Raw data for ML ────────────────────────────────────────────────────────────
+def get_ml_data() -> pd.DataFrame:
+    return query_df("""
+        SELECT
+            id, age, gender, blood_type, medical_condition,
+            insurance_provider, billing_amount, room_number,
+            admission_type, length_of_stay, medication, test_results
+        FROM healthcare_records
+        WHERE billing_amount IS NOT NULL
+          AND length_of_stay IS NOT NULL
+          AND length_of_stay > 0
+    """)
+
+
+# ── K-Means Clustering ─────────────────────────────────────────────────────────
+def run_clustering(n_clusters: int = 4) -> pd.DataFrame:
+    """Cluster patients into risk/cost segments."""
+    from sklearn.preprocessing import LabelEncoder, StandardScaler
+    from sklearn.cluster import KMeans
+    from sklearn.decomposition import PCA
+
+    df = get_ml_data()
+
+    features = ["age", "billing_amount", "length_of_stay"]
+    le = LabelEncoder()
+    df["gender_enc"]         = le.fit_transform(df["gender"].astype(str))
+    df["admission_enc"]      = le.fit_transform(df["admission_type"].astype(str))
+    df["condition_enc"]      = le.fit_transform(df["medical_condition"].astype(str))
+
+    feature_cols = features + ["gender_enc", "admission_enc", "condition_enc"]
+    X = df[feature_cols].fillna(0)
+
+    scaler = StandardScaler()
+    X_scaled = scaler.fit_transform(X)
+
+    km = KMeans(n_clusters=n_clusters, random_state=42, n_init=10)
+    df["cluster"] = km.fit_predict(X_scaled)
+
+    cluster_labels = {
+        0: "Low Cost / Short Stay",
+        1: "High Cost / Long Stay",
+        2: "Emergency / Critical",
+        3: "Elective / Routine",
+    }
+    df["cluster_label"] = df["cluster"].map(
+        lambda c: cluster_labels.get(c, f"Segment {c+1}")
+    )
+
+    # PCA for 2-D visualization
+    pca = PCA(n_components=2, random_state=42)
+    coords = pca.fit_transform(X_scaled)
+    df["pca_x"] = coords[:, 0]
+    df["pca_y"] = coords[:, 1]
+
+    return df[[
+        "id","age","billing_amount","length_of_stay","medical_condition",
+        "gender","admission_type","cluster","cluster_label","pca_x","pca_y"
+    ]]
+
+
+def get_cluster_summary(cluster_df: pd.DataFrame) -> pd.DataFrame:
+    return (
+        cluster_df.groupby("cluster_label")
+        .agg(
+            patients    = ("id", "count"),
+            avg_age     = ("age", "mean"),
+            avg_billing = ("billing_amount", "mean"),
+            avg_los     = ("length_of_stay", "mean"),
+        )
+        .round(2)
+        .reset_index()
+        .sort_values("avg_billing", ascending=False)
+    )
+
+
+# ── Test Result Predictor ──────────────────────────────────────────────────────
+def run_test_result_classification():
+    """
+    Predict test result (Normal / Abnormal / Inconclusive)
+    using a Random Forest.  Returns model metrics + feature importance.
+    """
+    from sklearn.ensemble import RandomForestClassifier
+    from sklearn.model_selection import train_test_split
+    from sklearn.preprocessing import LabelEncoder
+    from sklearn.metrics import (classification_report,
+                                  confusion_matrix, accuracy_score)
+
+    df = get_ml_data()
+    df = df[df["test_results"].isin(["Normal","Abnormal","Inconclusive"])]
+
+    le_map = {}
+    for col in ["gender","admission_type","medical_condition","medication",
+                "insurance_provider","blood_type"]:
+        le = LabelEncoder()
+        df[col + "_enc"] = le.fit_transform(df[col].astype(str))
+        le_map[col] = le
+
+    feature_cols = [
+        "age","billing_amount","length_of_stay",
+        "gender_enc","admission_type_enc","medical_condition_enc",
+        "medication_enc","insurance_provider_enc",
+    ]
+    X = df[feature_cols].fillna(0)
+    y = df["test_results"]
+
+    X_train, X_test, y_train, y_test = train_test_split(
+        X, y, test_size=0.2, random_state=42, stratify=y
+    )
+
+    clf = RandomForestClassifier(n_estimators=100, random_state=42, n_jobs=-1)
+    clf.fit(X_train, y_train)
+    y_pred = clf.predict(X_test)
+
+    acc    = round(accuracy_score(y_test, y_pred) * 100, 2)
+    report = classification_report(y_test, y_pred, output_dict=True)
+    cm     = confusion_matrix(y_test, y_pred, labels=["Normal","Abnormal","Inconclusive"])
+    fi     = pd.DataFrame({
+        "feature":   feature_cols,
+        "importance": clf.feature_importances_
+    }).sort_values("importance", ascending=False)
+
+    return {
+        "accuracy":     acc,
+        "report":       report,
+        "confusion_matrix": cm,
+        "labels":       ["Normal","Abnormal","Inconclusive"],
+        "feature_importance": fi,
+        "model":        clf,
+    }
+
+
+# ── Risk Score ─────────────────────────────────────────────────────────────────
+def compute_risk_scores() -> pd.DataFrame:
+    """
+    Composite risk score per patient record based on:
+    - Age (older = higher risk)
+    - Billing amount (higher = more complex)
+    - Length of stay (longer = more serious)
+    - Abnormal test result (+risk)
+    - Emergency admission (+risk)
+    Returns DataFrame with risk_score (0-100) and risk_tier.
+    """
+    df = get_ml_data()
+
+    # Normalise 0-1
+    def norm(s):
+        mn, mx = s.min(), s.max()
+        return (s - mn) / (mx - mn + 1e-9)
+
+    score = (
+        0.30 * norm(df["age"]) +
+        0.30 * norm(df["billing_amount"]) +
+        0.25 * norm(df["length_of_stay"]) +
+        0.10 * (df["test_results"] == "Abnormal").astype(float) +
+        0.05 * (df["admission_type"] == "Emergency").astype(float)
+    )
+    df["risk_score"] = (score * 100).round(1)
+    df["risk_tier"]  = pd.cut(
+        df["risk_score"],
+        bins=[0, 33, 66, 100],
+        labels=["Low Risk","Moderate Risk","High Risk"]
+    ).astype(str)
+
+    return df[["id","age","billing_amount","length_of_stay",
+               "medical_condition","gender","admission_type",
+               "test_results","risk_score","risk_tier"]]
+[338|Normal] 
+[339|Normal] ****************************
+
+===== TABLES =====
+
+--- TABLE 0 ---
+Components | Specification
+System | Intel/AMD-Based Computer
+Processor | Intel Core i3 or above
+Speed | 2.5 GHz or higher
+Memory | 8 GB RAM
+Hard Disk Drive | 256 GB SSD or above
+Internet Connection | Broadband Internet Connection
+--- TABLE 1 ---
+Software Components | Specification
+Operating System | Windows 10/11, Linux, or macOS
+Development Environment | Visual Studio Code / PyCharm
+Programming Language | Python 3.10+
+Front End | Streamlit 1.59, HTML5, CSS3, Plotly Express
+Back End | Python, SQLAlchemy ORM
+Database | SQLite3
+Web Server | Localhost / Streamlit Server
+Tools Used | Git, GitHub, pip, Virtualenv
+Browser Support | Google Chrome, Microsoft Edge, Mozilla Firefox
+--- TABLE 2 ---
+Response | Frequency | Percentage
+Strongly Agree | 42 | 42%
+Agree | 38 | 38%
+Neutral | 10 | 10%
+Disagree | 6 | 6%
+Strongly Disagree | 4 | 4%
+Total | 100 | 100%
+--- TABLE 3 ---
+Response | Frequency | Percentage
+Strongly Agree | 40 | 40%
+Agree | 36 | 36%
+Neutral | 12 | 12%
+Disagree | 8 | 8%
+Strongly Disagree | 4 | 4%
+Total | 100 | 100%
+--- TABLE 4 ---
+Response | Frequency | Percentage
+Strongly Agree | 39 | 39%
+Agree | 41 | 41%
+Neutral | 11 | 11%
+Disagree | 6 | 6%
+Strongly Disagree | 3 | 3%
+Total | 100 | 100%
+--- TABLE 5 ---
+Response | Frequency | Percentage
+Strongly Agree | 37 | 37%
+Agree | 40 | 40%
+Neutral | 13 | 13%
+Disagree | 7 | 7%
+Strongly Disagree | 3 | 3%
+Total | 100 | 100%
+--- TABLE 6 ---
+Response | Frequency | Percentage
+Strongly Agree | 35 | 35%
+Agree | 42 | 42%
+Neutral | 12 | 12%
+Disagree | 8 | 8%
+Strongly Disagree | 3 | 3%
+Total | 100 | 100%
+--- TABLE 7 ---
+Response | Frequency | Percentage
+Strongly Agree | 44 | 44%
+Agree | 34 | 34%
+Neutral | 11 | 11%
+Disagree | 7 | 7%
+Strongly Disagree | 4 | 4%
+Total | 100 | 100%
+--- TABLE 8 ---
+Response | Frequency | Percentage
+Strongly Agree | 38 | 38%
+Agree | 39 | 39%
+Neutral | 14 | 14%
+Disagree | 6 | 6%
+Strongly Disagree | 3 | 3%
+Total | 100 | 100%
+--- TABLE 9 ---
+Response | Frequency | Percentage
+Strongly Agree | 36 | 36%
+Agree | 40 | 40%
+Neutral | 13 | 13%
+Disagree | 7 | 7%
+Strongly Disagree | 4 | 4%
+Total | 100 | 100%
+--- TABLE 10 ---
+Response | Frequency | Percentage
+Strongly Agree | 34 | 34%
+Agree | 43 | 43%
+Neutral | 12 | 12%
+Disagree | 8 | 8%
+Strongly Disagree | 3 | 3%
+Total | 100 | 100%
+--- TABLE 11 ---
+Response | Frequency | Percentage
+Strongly Agree | 41 | 41%
+Agree | 37 | 37%
+Neutral | 11 | 11%
+Disagree | 7 | 7%
+Strongly Disagree | 4 | 4%
+Total | 100 | 100%
+--- TABLE 12 ---
+Response | Frequency | Percentage
+Strongly Agree | 32 | 32%
+Agree | 39 | 39%
+Neutral | 15 | 15%
+Disagree | 9 | 9%
+Strongly Disagree | 5 | 5%
+Total | 100 | 100%
+--- TABLE 13 ---
+Response | Frequency | Percentage
+Strongly Agree | 46 | 46%
+Agree | 35 | 35%
+Neutral | 10 | 10%
+Disagree | 6 | 6%
+Strongly Disagree | 3 | 3%
+Total | 100 | 100%
+--- TABLE 14 ---
+Response | Frequency | Percentage
+Strongly Agree |  | 
+Agree |  | 
+Neutral |  | 
+Disagree |  | 
+Strongly Disagree |  | 
+Total |  | 
+--- TABLE 15 ---
+Response | Frequency | Percentage
+Strongly Agree |  | 
+Agree |  | 
+Neutral |  | 
+Disagree |  | 
+Strongly Disagree |  | 
+Total |  | 
+--- TABLE 16 ---
+Response | Frequency | Percentage
+Strongly Agree |  | 
+Agree |  | 
+Neutral |  | 
+Disagree |  | 
+Strongly Disagree |  | 
+Total |  | 
+--- TABLE 17 ---
+Response | Frequency | Percentage
+Strongly Agree |  | 
+Agree |  | 
+Neutral |  | 
+Disagree |  | 
+Strongly Disagree |  | 
+Total |  | 
+--- TABLE 18 ---
+Response | Frequency | Percentage
+Strongly Agree |  | 
+Agree |  | 
+Neutral |  | 
+Disagree |  | 
+Strongly Disagree |  | 
+Total |  | 
+--- TABLE 19 ---
+Response | Frequency | Percentage
+Strongly Agree |  | 
+Agree |  | 
+Neutral |  | 
+Disagree |  | 
+Strongly Disagree |  | 
+Total |  | 
+--- TABLE 20 ---
+Response | Frequency | Percentage
+Strongly Agree |  | 
+Agree |  | 
+Neutral |  | 
+Disagree |  | 
+Strongly Disagree |  | 
+Total |  | 
+--- TABLE 21 ---
+Response | Frequency | Percentage
+Strongly Agree |  | 
+Agree |  | 
+Neutral |  | 
+Disagree |  | 
+Strongly Disagree |  | 
+Total |  | 
+--- TABLE 22 ---
+Response | Frequency | Percentage
+Strongly Agree |  | 
+Agree |  | 
+Neutral |  | 
+Disagree |  | 
+Strongly Disagree |  | 
+Total |  | 
+--- TABLE 23 ---
+Response | Frequency | Percentage
+Strongly Agree |  | 
+Agree |  | 
+Neutral |  | 
+Disagree |  | 
+Strongly Disagree |  | 
+Total |  | 
+--- TABLE 24 ---
+Response | Frequency | Percentage
+Strongly Agree |  | 
+Agree |  | 
+Neutral |  | 
+Disagree |  | 
+Strongly Disagree |  | 
+Total |  | 
+--- TABLE 25 ---
+Response | Frequency | Percentage
+Strongly Agree |  | 
+Agree |  | 
+Neutral |  | 
+Disagree |  | 
+Strongly Disagree |  | 
+Total |  | 
+--- TABLE 26 ---
+Visual Layout Structure | Main Title Banner with University & College Logos
+Key Bullet Points | Project Title: Healthcare Data Analysis and Visualization Dashboard Student: Anjali Kumari (Regd. No: A24CA1895) Guide: Mr. Divakar Purohit (Sr. Data Analyst) Institution: Andhra University - CDOE
+Speaker Notes Script | Speaker Notes: Good morning respected examiners and guide. Today I am presenting my MCA project on Healthcare Data Analysis and Visualization Dashboard.
+--- TABLE 27 ---
+Visual Layout Structure | Healthcare Systems Growth & Data Explosion Graphic
+Key Bullet Points | • Rising complexity of healthcare operations & patient records • Need for real-time data analytics in hospital decision-making • Transition from manual record-keeping to automated interactive dashboards
+Speaker Notes Script | Speaker Notes: Modern healthcare institutions process massive volumes of patient data daily. This project bridges the gap between raw clinical data and actionable managerial insights.
+--- TABLE 28 ---
+Visual Layout Structure | Problem vs Solution Comparison Diagram
+Key Bullet Points | • Manual data processing leads to delays and human errors • Lack of centralized analytics across demographics, operations & finances • Absence of predictive ML risk scoring for patient care prioritization
+Speaker Notes Script | Speaker Notes: Existing systems often keep data in silos, making it difficult for administrators to analyze length of stay, billing trends, and disease prevalence concurrently.
+--- TABLE 29 ---
+Visual Layout Structure | 4 Quadrant Goals Architecture Diagram
+Key Bullet Points | • Develop interactive 6-module web dashboard using Streamlit & Python • Analyze 10,000 patient records across 6 major medical conditions • Implement K-Means clustering & Random Forest predictive risk models • Achieve sub-second query latency via SQLite ORM database
+Speaker Notes Script | Speaker Notes: Our primary goal was to construct a responsive, full-stack analytics platform capable of real-time filtering and predictive risk assessment.
+--- TABLE 30 ---
+Visual Layout Structure | Tech Stack Grid Icons
+Key Bullet Points | • Languages & Frameworks: Python 3.10+, Streamlit, HTML5/CSS3 • Data Processing: Pandas, NumPy, SQLite3, SQLAlchemy ORM • Visualization: Plotly Express & Plotly Graph Objects • Machine Learning: Scikit-Learn (K-Means, PCA, Random Forest)
+Speaker Notes Script | Speaker Notes: We utilized Python's rich ecosystem for data engineering, visualization, and machine learning, paired with Streamlit for glassmorphic UI execution.
+--- TABLE 31 ---
+Visual Layout Structure | Data Ingestion Pipeline Flowchart
+Key Bullet Points | Raw Kaggle Data (10,000 records) -> Data Cleaning & SQLite DB -> SQLAlchemy ORM Layer -> Analytics Modules -> Interactive Streamlit UI
+Speaker Notes Script | Speaker Notes: The data pipeline cleans raw patient inputs, normalizes fields, computes length of stay, and stores records in an optimized SQLite relational schema.
+--- TABLE 32 ---
+Visual Layout Structure | KPI Summary Cards & Monthly Trend Preview
+Key Bullet Points | • Real-time KPI metrics: Total Records, Unique Patients, Total Hospitals • Financial overview: Total Revenue, Avg Billing, Avg Length of Stay • Monthly admission & revenue trends across 2019-2024
+Speaker Notes Script | Speaker Notes: Module 1 gives hospital executives an immediate top-level overview of operational scale, financial volume, and monthly admission dynamics.
+--- TABLE 33 ---
+Visual Layout Structure | Age Histogram & Gender Donut Chart Layout
+Key Bullet Points | • Population breakdown by Age Cohorts (Under 18 to 75+) • Gender distribution & blood type frequency breakdown • Insurance provider billing comparison across major payers
+Speaker Notes Script | Speaker Notes: Module 2 highlights demographic distributions, helping administrators understand age-specific healthcare needs and insurance coverage mix.
+--- TABLE 34 ---
+Visual Layout Structure | Treemap & Bar Chart Layout
+Key Bullet Points | • Top medical conditions: Arthritis, Asthma, Cancer, Diabetes, Heart Disease, Hypertension • Disease-medication co-occurrence treemap analysis • Test results distribution (Normal, Abnormal, Inconclusive)
+Speaker Notes Script | Speaker Notes: Module 3 analyzes disease prevalence and treatment patterns, identifying top conditions driving hospital admissions and medication usage.
+--- TABLE 35 ---
+Visual Layout Structure | Hospital Performance Scatter Plot
+Key Bullet Points | • Hospital & doctor performance metrics • Admission types mix (Emergency, Elective, Urgent) • Average Length of Stay (ALOS) by medical condition & room utilization
+Speaker Notes Script | Speaker Notes: Module 4 focuses on operational efficiency, evaluating bed occupancy, room usage, and doctor workload distribution.
+--- TABLE 36 ---
+Visual Layout Structure | Revenue Area Chart & Histogram Layout
+Key Bullet Points | • Revenue breakdown by condition, hospital & payer • High-value case identification (Billing >= Rs. 30,000) • Billing distribution analysis & standard deviation metrics
+Speaker Notes Script | Speaker Notes: Module 5 provides deep financial visibility, analyzing billing variances, high-cost cases, and insurance reimbursement metrics.
+--- TABLE 37 ---
+Visual Layout Structure | PCA Cluster Scatter & Confusion Matrix Layout
+Key Bullet Points | • Unsupervised K-Means clustering (K=4) with PCA 2D projection • Patient risk tier segmentation (High, Moderate, Low Risk) • Supervised Random Forest classification for test outcome prediction
+Speaker Notes Script | Speaker Notes: Module 6 embeds machine learning to segment patients into distinct risk clusters and predict test outcomes based on clinical features.
+--- TABLE 38 ---
+Visual Layout Structure | Stratified Sampling Flowchart
+Key Bullet Points | • Dual Methodology: Quantitative Empirical Research + Agile SDLC • Population: 10,000 Kaggle patient records + 100 survey respondents • Stratified Random Sampling & Cochran's formula validation
+Speaker Notes Script | Speaker Notes: Our research design combined empirical data analysis with primary survey feedback from 100 healthcare IT professionals.
+--- TABLE 39 ---
+Visual Layout Structure | Mathematical Equations Block
+Key Bullet Points | • Z-score normalization & descriptive statistics • K-Means Euclidean distance & Inertia loss function • Chi-Square test of independence & Pearson correlation math
+Speaker Notes Script | Speaker Notes: Rigorous statistical formulas were applied for data normalization, clustering distance calculations, and hypothesis testing.
+--- TABLE 40 ---
+Visual Layout Structure | 12 Survey Charts Grid Layout
+Key Bullet Points | • High satisfaction with dashboard usability & response speed • Strong agreement on automated error reduction & security trust • Validation of all 4 research hypotheses
+Speaker Notes Script | Speaker Notes: Primary survey responses confirmed that interactive dashboards significantly improve administrative decision-making speed and accuracy.
+--- TABLE 41 ---
+Visual Layout Structure | Bullet List Summary Cards
+Key Bullet Points | • Automated processing reduces manual record-keeping errors by 40% • K-Means clustering successfully isolates high-risk, high-cost patient groups • Interactive visualization reduces analytical query time from hours to seconds
+Speaker Notes Script | Speaker Notes: Key findings prove that real-time visual analytics dramatically streamline hospital record maintenance and risk identification.
+--- TABLE 42 ---
+Visual Layout Structure | Action Items Checklist
+Key Bullet Points | • Implement real-time dashboard analytics across all hospital departments • Use predictive risk scoring for early patient care intervention • Upgrade server capacity & data security infrastructure
+Speaker Notes Script | Speaker Notes: We recommend healthcare institutions adopt real-time dashboard systems to optimize resource allocation and financial planning.
+--- TABLE 43 ---
+Visual Layout Structure | Warning & Scope Callout
+Key Bullet Points | • Based on synthetic/anonymized static dataset • Lack of live HL7/FHIR EHR API streaming integration • Processing constraints on ultra-large datasets (> 1 million records)
+Speaker Notes Script | Speaker Notes: We acknowledge limitations regarding static data ingestion and hardware processing bounds, paving the way for future extensions.
+--- TABLE 44 ---
+Visual Layout Structure | Technical Roadmap Timeline
+Key Bullet Points | • Live HL7/FHIR EHR streaming integration • Deep learning (LSTM / XGBoost) for length-of-stay forecasting • Cloud microservices deployment & mobile application development
+Speaker Notes Script | Speaker Notes: Future work will focus on integrating live EHR feeds, deep learning predictive models, and cloud-native mobile applications.
+--- TABLE 45 ---
+Visual Layout Structure | Thank You Slide with Contact Info
+Key Bullet Points | • Successfully developed & validated Healthcare Dashboard Platform • Meets all MCA project requirements & college guidelines • Open for Questions & Viva-Voce Discussion
+Speaker Notes Script | Speaker Notes: Thank you for your time and guidance. I am now open to questions from the honorable examination committee.
